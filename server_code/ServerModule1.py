@@ -8,13 +8,9 @@ db = client['Project2']  # Replace with your database name
 pokedex = db['Pokedex']  # Replace with your collection name
 
 @anvil.server.callable
-def getPokemon(region):
-  # Query the MongoDB collection
-  document = pokedex.find_one({"Region": region})
-  if document:
-    return {
-      "firstPokemon": document.get("firstPokemon"),
-      "lastPokemon": document.get("lastPokemon")
-    }
-  else:
-    return None  # Return None if no document matches
+def get_pokemon_by_region(region):
+    """Retrieve all Pokémon for a given region."""
+    document = pokedex.find_one({"Region": region})
+    if document:
+        return document.get("Pokemon", [])  # Return the list of Pokémon or an empty list
+    return []  # Return an empty list if no document matches
