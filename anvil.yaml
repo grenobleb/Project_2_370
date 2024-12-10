@@ -1,7 +1,8 @@
 allow_embedding: false
 dependencies: []
-name: M3 App 1
-package_name: M3_App_1
+metadata: {title: Kenny_Grenoble_Gao_Project_2_370}
+name: Project_2_370
+package_name: Project_2_370
 renamed: true
 runtime_options:
   client_version: '3'
