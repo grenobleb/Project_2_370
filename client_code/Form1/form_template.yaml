@@ -127,9 +127,9 @@ components:
       name: selectedPokemonCategoryLabel
       properties:
         text: |
-          Selected Pokemon:
+          Category:
       type: Label
-    - name: selectedPokemonCategory1
+    - name: selectedPokemonCategory
       properties: {}
       type: Label
     event_bindings: {show: flow_panel_1_show}
@@ -139,12 +139,12 @@ components:
     type: FlowPanel
   - components:
     - layout_properties: {}
-      name: selectedPokemonCategory
+      name: selectedPokemonTypingLabel
       properties:
         text: |
-          Last Pokemon:
+          Typing:
       type: Label
-    - name: lastPokemon
+    - name: selectedPokemonTyping
       properties: {}
       type: Label
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK KJAHNM,BDZHCZ'}
@@ -153,12 +153,12 @@ components:
     type: FlowPanel
   - components:
     - layout_properties: {}
-      name: selectedPokemonCategory_copy_copy
+      name: SelectedPokemonAvgWeightLabel
       properties:
         text: |
-          Last Pokemon:
+          Avg. Weight:
       type: Label
-    - name: lastPokemon_copy_copy
+    - name: selectedPokemonAvgWeight
       properties: {}
       type: Label
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK LFXSNY,QBZVTA'}
@@ -170,10 +170,11 @@ components:
       name: selectedPokemonCategory_copy
       properties:
         text: |
-          Last Pokemon:
+          Avg. Height:
       type: Label
-    - name: lastPokemon_copy
-      properties: {}
+    - layout_properties: {}
+      name: lastPokemon_copy
+      properties: {text: selectedPokemonAvgHeight}
       type: Label
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK ZTONCK,OACOEU'}
     name: flow_panel_3_copy
@@ -184,10 +185,7 @@ components:
       name: selectedPokemonCategory_copy_2
       properties:
         text: |
-          Last Pokemon:
-      type: Label
-    - name: lastPokemon_copy_2
-      properties: {}
+          Entry:
       type: Label
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK PTFRKD,CIMUTN'}
     name: flow_panel_3_copy_2
