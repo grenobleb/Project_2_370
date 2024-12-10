@@ -1,4 +1,19 @@
 allow_embedding: false
+db_schema:
+  pokedex:
+    client: search
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: region
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: firstPokemon
+      type: string
+    - admin_ui: {order: 2, width: 200}
+      name: lastPokemon
+      type: string
+    server: full
+    title: pokedex
 dependencies: []
 metadata: {title: Kenny_Grenoble_Gao_Project_2_370}
 name: Project_2_370
