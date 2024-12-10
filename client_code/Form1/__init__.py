@@ -1,6 +1,7 @@
 from ._anvil_designer import Form1Template
 from anvil import *
 import anvil.server
+from pymongo import MongoClient
 
 class Form1(Form1Template):
   def __init__(self, **properties):
@@ -11,8 +12,9 @@ class Form1(Form1Template):
 
   def dropDownRegion_change(self, **event_args):
     """Triggered when the region dropdown selection changes."""
-    selected_region = self.dropDownRegion.selected_value
-    if selected_region:
+    self.selectedRegion.text = self.dropDownRegion.selected_value
+    testSelectedRegion = self.dropDownRegion.selected_value
+    if testSelectedRegion:
       # Call the server function to get Pokémon for the selected region
       pokemon_list = anvil.server.call('get_pokemon_by_region', selected_region)
       
@@ -21,15 +23,15 @@ class Form1(Form1Template):
     else:
       # Clear the Pokémon dropdown if no region is selected
       self.dropDownPokemon.items = []
-  
-  def dropDownRegion_change(self, **event_args):
-    """Triggered when the user selects and item from the dropdown menu."""
-    region = self.dropDownRegion.selected_value  # Get selected region
-    result = anvil.server.call('getPokemon', region)
-      
-    if result:
-      self.firstPokemon.text = f"First Pokemon: {result['firstPokemon']}"
-      self.lastPokemon.text = f"Last Pokemon: {result['lastPokemon']}"
+
+  def dropDownPokemon_change(self, **event_args):
+    self.Pkm.text = self.dropDownPokemon.text
+    pokemonData = get_pokemon_data(self.Pkm.text)
+    if pokemonData:
+      # To access and display the ID:
+      PkmId = pokemonData["_id"]  # This is how you access the 'id' field in the dictionary
+      # Assuming self.PkmId.text is an attribute in your UI element (e.g., a label in Tkinter or PyQt)
+      self.PkmId.text = str(PkmId)  # Set the text to the Pokémon ID
     else:
-      self.firstPokemon.text = "Region not found."
-      self.lastPokemon.text  = "Region not found."
+      self.PkmId.text = "Pokémon not found"
+    
