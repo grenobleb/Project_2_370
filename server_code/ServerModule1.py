@@ -1,35 +1,54 @@
-import anvil.server
-from pymongo import MongoClient
 import sqlite3
+from anvil.server import callable
 
-db = 
+DB_PATH = 'kanto_pokemon.db'
 
-# Connect to mongodb
-MONGO_URI = "mongodb+srv://localhost:27017@cluster0.mongodb.net/Project2?retryWrites=true&w=majority"
-client = MongoClient(MONGO_URI)
-db = client['Project2']  # Replace with your database name
-pokedex = db['kanto_pokemon']  # Replace with your collection name
+@callable
+def get_regions():
+    # Connect to the SQLite3 database
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
 
-@anvil.server.callable
+    # Fetch distinct regions
+    cursor.execute("SELECT DISTINCT region FROM pokemon")
+    regions = [row[0] for row in cursor.fetchall()]
+
+    conn.close()
+    return regions
+
+@callable
 def get_pokemon_by_region(region):
-    """Retrieve all Pokémon for a given region."""
-    document = pokedex.find_one({"Region": region})
-    if document:
-        return document.get("Pokemon", [])  # Return the list of Pokémon or an empty list
-    return []  # Return an empty list if no document matches
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
 
-def get_pokemon_data(selected_name):
-    # Query for the Pokémon by name
-    query = {"name": selected_name}
-    result = pokedex.find_one(query)  # Get the first matching document
-    
-    # Handle case if no result is found
+    # Fetch Pokémon names from the specified region
+    cursor.execute("SELECT id, name FROM pokemon WHERE region = ?", (region,))
+    pokemon_list = cursor.fetchall()
+
+    conn.close()
+    return [{'id': p[0], 'name': p[1]} for p in pokemon_list]
+
+@callable
+def get_pokemon_details(pokemon_id):
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    # Fetch Pokémon details by ID
+    cursor.execute("SELECT * FROM pokemon WHERE id = ?", (pokemon_id,))
+    result = cursor.fetchone()
+
+    conn.close()
+
     if result:
         return {
-            "id": result.get("id"),
-            "name": result.get("name"),
-            "category": result.get("category"),
-            "typing": result.get("typing"),
+            'id': result[0],
+            'name': result[1],
+            'region': result[2],
+            'category': result[3],
+            'type': result[4],
+            'avg_weight': result[5],
+            'avg_height': result[6],
+            'dex_entry': result[7],
         }
     else:
-        return f"Pokémon '{selected_name}' not found in the database."
+        return None
