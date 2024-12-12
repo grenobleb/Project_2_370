@@ -42,9 +42,13 @@ components:
     name: spacer_3
     properties: {height: 32}
     type: Spacer
-  - layout_properties: {grid_position: 'BGXTJM,DFPKEN'}
+  - layout_properties: {grid_position: 'BGXTJM,DFPKEN LJUQBZ,VDAPLG'}
     name: IntroLabel3
     properties: {align: center, font_size: 20, text: 'To interact with this pokedex, please begin by selecting a region from the pokemon world. Then select a specific pokemon from the region you previously specified, and their information will appear'}
+    type: Label
+  - layout_properties: {grid_position: 'BGXTJM,DFPKEN NOHPXN,UNYWBO'}
+    name: IntroLabel3_copy
+    properties: {align: center, font_size: 20, text: 'As a note: This was originally planned to have many more pokemon, the whole 386 of the original pokemon games. However this was with us using an external database which we tried relentlessly to make work, however we realized that anvil requires you to pay to be able to access external databases. We realized this unfortunately late into development, and you will still be able to see all the pokemon set up in a the ''pokedex.db'' file we tried to use, however in this system we only do the starter pokemon from each generation (so 9 from each, or 27 pokemon in total)'}
     type: Label
   - layout_properties: {grid_position: 'BGXTJM,DQGNMQ'}
     name: spacer_4
@@ -57,7 +61,7 @@ components:
   - components:
     - layout_properties: {col_xs: 0, row: KXVBIX, width_xs: 12}
       name: selectPokemonRegionLabel
-      properties: {align: center, font_size: 20, text: Please Select a Pokemon Region Below}
+      properties: {align: center, font_size: 20, text: Please Select a Pokemon Region Below, visible: true}
       type: Label
     - event_bindings: {change: dropDownRegion_change}
       layout_properties: {col_xs: 0, row: XTVRBS, width_xs: 12}
@@ -66,148 +70,155 @@ components:
         include_placeholder: true
         items: [Kanto, Jhoto]
         placeholder: Choose Region
+        visible: true
       type: DropDown
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK JJJHEZ,IZYXVW'}
     name: grid_panel_1
     properties: {}
     type: GridPanel
   - components:
-    - layout_properties: {col_xs: 0, row: KXVBIX, width_xs: 12}
-      name: selectPokemonLabel
-      properties: {align: center, font_size: 20, text: Please Select a Pokemon Below}
-      type: Label
-    - data_bindings:
-      - {code: '', property: items, writeback: false}
-      event_bindings: {change: dropDownRegion_change}
-      layout_properties: {col_xs: 0, row: XTVRBS, width_xs: 12}
-      name: dropDownPokemon
-      properties:
-        include_placeholder: true
-        items: [Kanto, Jhoto]
-        placeholder: Choose Pokemon
-      type: DropDown
-    event_bindings: {show: grid_panel_2_show}
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK DBXHIX,CFFATC'}
-    name: grid_panel_2
-    properties: {visible: true}
-    type: GridPanel
-  - components:
-    - layout_properties: {}
-      name: selectedRegionLabel
-      properties:
-        text: |
-          Region Selected:
-      type: Label
-    - name: selectedRegion
-      properties: {}
-      type: Label
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK ZEXSRJ,HMCQVE'}
-    name: flow_panel_1
+    - components:
+      - layout_properties: {col_xs: 0, row: KXVBIX, width_xs: 12}
+        name: selectPokemonLabel
+        properties: {align: center, font_size: 20, text: Please Select a Pokemon Below, visible: true}
+        type: Label
+      - event_bindings: {change: dropDownPkm_change}
+        layout_properties: {col_xs: 4, row: ZPHRCS, width_xs: 4}
+        name: dropDownPkm
+        properties: {include_placeholder: true, placeholder: Choose Pokemon, visible: true}
+        type: DropDown
+      - components:
+        - components:
+          - layout_properties: {}
+            name: selectedRegionLabel
+            properties:
+              text: |
+                Region Selected:
+            type: Label
+          - layout_properties: {}
+            name: selectedRegion
+            properties: {visible: true}
+            type: Label
+          layout_properties: {grid_position: 'PFHCGV,LJJYUC'}
+          name: flow_panel_1
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmLabel
+            properties:
+              text: |
+                Selected Pokemon:
+            type: Label
+          - name: Pkm
+            properties: {}
+            type: Label
+          event_bindings: {show: flow_panel_1_show}
+          layout_properties: {grid_position: 'CJQFTZ,PISYNM'}
+          name: flow_panel_2
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmIdLabel
+            properties:
+              text: |
+                Pokemon ID:
+            type: Label
+          - name: PkmId
+            properties: {}
+            type: Label
+          event_bindings: {show: flow_panel_1_show}
+          layout_properties: {grid_position: 'DRZCZK,EQBFBF'}
+          name: flow_panel_2_copy_copy
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmCategoryLabel
+            properties:
+              text: |
+                Category:
+            type: Label
+          - name: PkmCategory
+            properties: {}
+            type: Label
+          event_bindings: {show: flow_panel_1_show}
+          layout_properties: {grid_position: 'RLZUYG,QSZFLL'}
+          name: flow_panel_2_copy
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmTypeLabel
+            properties:
+              text: |
+                Typing:
+            type: Label
+          - name: PkmType
+            properties: {}
+            type: Label
+          layout_properties: {grid_position: 'AJLBCL,OHQNAF'}
+          name: flow_panel_3
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmAvgWeightLabel
+            properties:
+              text: |
+                Avg. Weight:
+            type: Label
+          - name: PkmAvgWeight
+            properties: {}
+            type: Label
+          layout_properties: {grid_position: 'JMXAZM,EYOTRG'}
+          name: flow_panel_3_copy_copy
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmAvgHeightLabel
+            properties:
+              text: |
+                Avg. Height:
+            type: Label
+          - layout_properties: {}
+            name: PkmAvgHeight
+            properties: {text: ''}
+            type: Label
+          layout_properties: {grid_position: 'ILHSXW,FIIDXU'}
+          name: flow_panel_3_copy
+          properties: {}
+          type: FlowPanel
+        - components:
+          - layout_properties: {}
+            name: PkmEntryLabel
+            properties:
+              text: |
+                Entry:
+            type: Label
+          layout_properties: {grid_position: 'TMKKTI,TIDEKU'}
+          name: flow_panel_3_copy_2
+          properties: {}
+          type: FlowPanel
+        - layout_properties: {grid_position: 'PZSLSN,HZSQBN'}
+          name: PkmEntry
+          properties: {align: center, text: ''}
+          type: Label
+        layout_properties: {col_xs: 1, row: RBSFMH, width_xs: 10}
+        name: PokemonInfo
+        properties: {visible: false}
+        type: ColumnPanel
+      event_bindings: {show: grid_panel_2_show}
+      layout_properties: {grid_position: 'VVAPXD,RHEDXB'}
+      name: selectPokemon
+      properties: {visible: false}
+      type: GridPanel
+    layout_properties: {grid_position: 'MCNBJQ,UKYDZK DBXHIX,GDYBLE'}
+    name: column_panel_1
     properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmLabel
-      properties:
-        text: |
-          Selected Pokemon:
-      type: Label
-    - name: Pkm
-      properties: {}
-      type: Label
-    event_bindings: {show: flow_panel_1_show}
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK AEOTAD,NKQXEJ'}
-    name: flow_panel_2
-    properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmIdLabel
-      properties:
-        text: |
-          Pokemon ID:
-      type: Label
-    - name: PkmId
-      properties: {}
-      type: Label
-    event_bindings: {show: flow_panel_1_show}
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK CRXUUV,HUVQIB'}
-    name: flow_panel_2_copy_copy
-    properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmCategoryLabel
-      properties:
-        text: |
-          Category:
-      type: Label
-    - name: PkmCategory
-      properties: {}
-      type: Label
-    event_bindings: {show: flow_panel_1_show}
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK WUZUYG,MYDKWZ'}
-    name: flow_panel_2_copy
-    properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmTypeLabel
-      properties:
-        text: |
-          Typing:
-      type: Label
-    - name: PkmType
-      properties: {}
-      type: Label
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK KJAHNM,BDZHCZ'}
-    name: flow_panel_3
-    properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmAvgWeightLabel
-      properties:
-        text: |
-          Avg. Weight:
-      type: Label
-    - name: PkmAvgWeight
-      properties: {}
-      type: Label
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK LFXSNY,QBZVTA'}
-    name: flow_panel_3_copy_copy
-    properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmAvgHeightLabel
-      properties:
-        text: |
-          Avg. Height:
-      type: Label
-    - layout_properties: {}
-      name: PkmAvgHeight
-      properties: {text: ''}
-      type: Label
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK ZTONCK,OACOEU'}
-    name: flow_panel_3_copy
-    properties: {}
-    type: FlowPanel
-  - components:
-    - layout_properties: {}
-      name: PkmEntryLabel
-      properties:
-        text: |
-          Entry:
-      type: Label
-    - layout_properties: {}
-      name: PkmEntry
-      properties: {text: ''}
-      type: Label
-    layout_properties: {grid_position: 'MCNBJQ,UKYDZK PTFRKD,CIMUTN'}
-    name: flow_panel_3_copy_2
-    properties: {}
-    type: FlowPanel
+    type: ColumnPanel
   - layout_properties: {grid_position: 'MCNBJQ,EGUNFZ'}
     name: spacer_5
     properties: {height: 32}

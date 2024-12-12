@@ -1,5 +1,34 @@
 allow_embedding: false
-db_schema: {}
+db_schema:
+  pokemon:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: id
+      type: number
+    - admin_ui: {order: 1, width: 200}
+      name: name
+      type: string
+    - admin_ui: {order: 3, width: 200}
+      name: category
+      type: string
+    - admin_ui: {order: 4, width: 200}
+      name: type
+      type: string
+    - admin_ui: {order: 5, width: 200}
+      name: avg_weight
+      type: number
+    - admin_ui: {order: 6, width: 200}
+      name: avg_height
+      type: number
+    - admin_ui: {order: 7, width: 200}
+      name: dex_entry
+      type: string
+    - admin_ui: {order: 2, width: 200}
+      name: region
+      type: string
+    server: full
+    title: pokemon
 dependencies: []
 metadata: {title: Kenny_Grenoble_Gao_Project_2_370}
 name: Project_2_370
