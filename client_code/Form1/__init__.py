@@ -1,8 +1,6 @@
 from ._anvil_designer import Form1Template
 from anvil import *
 import anvil.server
-import sqlite3
-from pymongo import MongoClient
 
 class Form1(Form1Template):
   def __init__(self, **properties):
