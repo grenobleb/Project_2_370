@@ -17,7 +17,7 @@ class Form1(Form1Template):
         selected_region = self.dropDownRegion.selected_value
         if selected_region:
             pokemon_list = anvil.server.call('get_pokemon_by_region', selected_region)
-            self.dropDownPokemon.items = [(p['name'], p['id']) for p in pokemon_list]
+            self.dropDownPokemon.items = [p['name'] for p in pokemon_list]
             self.dropDownPokemon.enabled = True
         else:
             self.dropDownPokemon.items = []
@@ -25,9 +25,9 @@ class Form1(Form1Template):
 
     def dropDownPokemon_change(self, **event_args):
         # Fetch details for the selected Pokémon
-        selected_pokemon_id = self.dropDownPokemon.selected_value
-        if selected_pokemon_id:
-            pokemon_details = anvil.server.call('get_pokemon_details', selected_pokemon_id)
+        selected_pokemon = self.dropDownPokemon.selected_value
+        if selected_pokemon:
+            pokemon_details = anvil.server.call('get_pokemon_details', selected_pokemon)
             if pokemon_details:
                 # Populate UI fields with Pokémon details
                 self.Pkm.text = f"Name: {pokemon_details['name']}"
