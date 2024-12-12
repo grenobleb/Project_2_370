@@ -36,3 +36,18 @@ def get_pokemon_by_name(name):
             return f"Pokémon with name {name} not found."
     except Exception as e:
         return f"Error fetching Pokémon data: {e}"
+
+@anvil.server.callable
+def add_pokemon(region, id, name, category, type, avg_height, avg_weight, dex_entry):
+    # Add a new Pokémon to the Pokedex Data Table
+    app_tables.pokedex.add_row(
+        region=region,
+        id=id,
+        name=name,
+        category=category,
+        type=type,
+        avg_height=avg_height,
+        avg_weight=avg_weight,
+        dex_entry=dex_entry
+    )
+    return f"Successfully added Pokémon {name} to the Pokedex!"
