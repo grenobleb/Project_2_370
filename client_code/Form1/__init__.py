@@ -179,7 +179,7 @@ class Form1(Form1Template):
         try:
             result = anvil.server.call('remove_pokemon_by_name', pokemon_name)
             alert(result)  # Display the result to the user
-            self.txtPokemonName.text = ""  # Clear the input box
+            self.removePkm.text = ""  # Clear the input box
         except Exception as e:
             alert(f"Error removing Pokémon: {e}")
     else:
