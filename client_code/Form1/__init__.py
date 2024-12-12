@@ -90,7 +90,7 @@ class Form1(Form1Template):
           self.PkmAvgWeight.text = tempAvgW
         
         tempEntry = pokemon_data['dex_entry']
-        if (tempEntry is N):
+        if (tempEntry is None):
           self.PkmEntry.text = "No data currently available"
         else:
           self.PkmEntry.text = tempEntry
