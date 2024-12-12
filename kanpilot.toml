@@ -5,65 +5,20 @@ skipFiles = [ ".gitignore", "package.json" ]
 [[processes]]
 id = "process1"
 name = "To Do"
+tasks = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
 
   [[processes.tasks]]
-  id = "w5185913kxd7rgkarlhqsvpp"
-  title = "Create Johto Database"
-  description = "<p>Add the region, id, name, type, height, weight, and pokedex entry</p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "nwtiel852btxesau3kt9bcec"
-  title = "Connect MongoDB"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "ylghblbv046ohr2u5o4xrfdy"
-  title = "Create File For Reference On Where Info Was Found"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "dmmn796nc21nf6006iz5pwc6"
-  title = "Create NULL When Table Cell Is NULL"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "ypyrc583usi49qlaxtlq2zuv"
-  title = "Create Client Code"
-  description = ""
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "kzhqpeikgw9vl6u61beigx19"
-  title = "Create Server Code"
+  id = "wshprq24ruhzyfusx49agqm7"
+  title = "Create Kanpilot To Do List"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -85,7 +40,29 @@ name = "To Do"
 
   [[processes.tasks]]
   id = "i6zunc7th0106xsee5bjoqqf"
-  title = "Create Website Layout"
+  title = "Design Website"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "kzhqpeikgw9vl6u61beigx19"
+  title = "Create Server Code"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ypyrc583usi49qlaxtlq2zuv"
+  title = "Create Client Code"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -96,7 +73,29 @@ name = "To Do"
 
   [[processes.tasks]]
   id = "oqvs495la2nrduooqhrmgtn0"
-  title = "Add Region Selection"
+  title = "Add Region Selection - Front end"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "vs1ol95tqk0id5ftfujdf8ef"
+  title = "Create server callable for getting all viable regions"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ln5bt8n93dp4vfz07lrfi8h6"
+  title = "create client def for loading regions into the drop down"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -107,8 +106,151 @@ name = "To Do"
 
   [[processes.tasks]]
   id = "ann0mj1npgnhhzyi92pot8es"
-  title = "Add Pokemon Selection"
+  title = "Add Pokemon Selection - Front end"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "t0bm1fuatanodjroelducu25"
+  title = "Create server callable for getting pokemon in a region"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "g0sdgwd5fbt6wd3ws26mbcec"
+  title = "Create client def for when a region is selected"
   description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "qvtj8h7m5iicid7qox5147bt"
+  title = "Create client def for when you get all pokemon in a region, to put into a dropdown to choose the pokemon"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "icypbbggoli8jlcn0wn530kc"
+  title = "Create server callable for getting pokemon information by their name"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "lfrlo5ahzc3ur19rbnxw7g8u"
+  title = "create client def for displaying pokemon info"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "d6hz2ncatg36uepf0e1tqufv"
+  title = "Create FrontEnd for when user wants to add a pokemon to the database"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "y03feji9dbfqsf9xn78n5muk"
+  title = "create server callable for adding pokemon to the database"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "o9ytlvisr10u1agtfri8f2ci"
+  title = "Create client def for adding pokemon into the database"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "cpy7mn88g6o5ze0krsstl8xc"
+  title = "Create FrontEnd for removing a Pokemon"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "k92g7q54b8hf22bmeavlar84"
+  title = "create server callable for removing pokemon by their name"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "goyiwxqe0cyz48tttqxbrx9l"
+  title = "Create client def for when they want to remove a pokemon (only by giving their name)"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ssajnl5dpk4dayzngoc784ud"
+  title = "Create extra return buttons for both the add and remove sections (in case they change their minds)"
+  description = "<p></p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "w5185913kxd7rgkarlhqsvpp"
+  title = "Create Database for Kanto"
+  description = "<p>Add the region, id, name, type, height, weight, and pokedex entry</p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
@@ -139,8 +281,19 @@ name = "To Do"
   linkCommits = [ ]
 
   [[processes.tasks]]
-  id = "wshprq24ruhzyfusx49agqm7"
-  title = "Create Kanpilot To Do List"
+  id = "dmmn796nc21nf6006iz5pwc6"
+  title = "Create NULL When Table Cell Is NULL"
+  description = "<p></p>"
+  tag = "bug"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ylghblbv046ohr2u5o4xrfdy"
+  title = "Create File For Reference On Where Info Was Found"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -150,8 +303,30 @@ name = "To Do"
   linkCommits = [ ]
 
 [[processes]]
-id = "process2"
-name = "In Progress"
+id = "s0h09omrq01vmper3vefktz0"
+name = "Removed"
+
+  [[processes.tasks]]
+  id = "iz3dlpefmwgdj42ife4t8s0e"
+  title = "Create MongoDB database"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "dfbw1vn75ya443wguthyg04c"
+  title = "Connect mongodb to anvil"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
 
   [[processes.tasks]]
   id = "aoxnblrbqdkg3quf9shhbtz4"
@@ -164,7 +339,24 @@ name = "In Progress"
   priority = ""
   linkCommits = [ ]
 
-[[processes]]
-id = "process3"
-name = "Done"
-tasks = [ ]
+  [[processes.tasks]]
+  id = "knj9q94mafhc81fuxcsp0ly5"
+  title = "Create SQLite3 Database"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ruc17pda534q6wrt0ikkq8s2"
+  title = "Connect SQLite3 database into Anvil"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
