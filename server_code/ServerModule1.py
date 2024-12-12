@@ -1,7 +1,7 @@
 import sqlite3
 from anvil.server import callable
 
-DB_PATH = 'kanto_pokemon.db'
+DB_PATH = 'poke.db'
 
 @callable
 def check_table_exists():
