@@ -1,4 +1,4 @@
-name = "project"
+name = "Project_2_370"
 skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
 skipFiles = [ ".gitignore", "package.json" ]
 
