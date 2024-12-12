@@ -204,8 +204,6 @@ class Form1(Form1Template):
             alert(f"Error removing Pokémon: {e}")
     else:
         alert("Please enter a Pokémon name.")
-
-    self.removePkmDone.visible = True
     self.removePkmInfo2.visible = True
 
   def removePkmDone_click(self, **event_args):

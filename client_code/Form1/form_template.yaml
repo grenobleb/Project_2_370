@@ -439,10 +439,19 @@ components:
         name: removePkmButton
         properties: {text: Remove}
         type: Button
+      - layout_properties: {grid_position: 'UHDVYY,JRAXHD'}
+        name: removePkmInfo2_copy
+        properties:
+          align: center
+          font_size: 20
+          text: |
+            Please select 'Done' below to return to the main screen.
+          visible: true
+        type: Label
       - event_bindings: {click: removePkmDone_click}
         layout_properties: {grid_position: 'CRIANX,ZNVOGO'}
         name: removePkmDone
-        properties: {text: Done, visible: false}
+        properties: {text: Done, visible: true}
         type: Button
       layout_properties: {col_xs: 1, row: RBSFMH, width_xs: 10}
       name: PokemonInfo_copy_copy
