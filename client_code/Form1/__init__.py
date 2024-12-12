@@ -21,10 +21,21 @@ class Form1(Form1Template):
       print(f"Error loading regions: {e}")
 
   def dropDownRegion_change(self, **event_args):
+    # clear outputs
+    self.selectedRegion.text = ""
+    self.PkmId.text = ""
+    self.Pkm.text = ""
+    self.PkmCategory.text = ""
+    self.PkmType.text = ""
+    self.PkmAvgHeight.text = ""
+    self.PkmAvgWeight.text = ""
+    self.PkmEntry.text = ""
+    
     # Get the selected region
     selected_region = self.dropDownRegion.selected_value
         
     if selected_region:
+      self.selectedRegion.text = selected_region
       self.selectPokemon.visible = True
       # Fetch Pokémon from the selected region
       self.populate_pokemon_dropdown(selected_region)
@@ -50,6 +61,7 @@ class Form1(Form1Template):
     selected_pokemon_name = self.dropDownPkm.selected_value
         
     if selected_pokemon_name:
+      self.Pkm.text = selected_pokemon_name
       # Fetch the Pokémon data by name (get the full details)
       self.display_pokemon_data(selected_pokemon_name)
     else:
@@ -62,9 +74,6 @@ class Form1(Form1Template):
             
       if isinstance(pokemon_data, dict):  # Ensure we got a dictionary (not an error string)
         self.PokemonInfo.visible = True
-        # Display Pokémon data in labels
-        self.selectedRegion.text = self.dropDownRegion.selected_value
-        self.Pkm.text = self.dropDownPkm.selected_value
         
         tempId = str(pokemon_data['id'])
         if (tempId is None or tempId == ""):
