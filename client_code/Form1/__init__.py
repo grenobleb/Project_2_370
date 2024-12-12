@@ -117,6 +117,10 @@ class Form1(Form1Template):
        print(f"Error displaying Pokémon data: {e}")
 
   def selectAddButton_click(self, **event_args):
+    self.welcomeLabel.visible = False
+    self.IntroLabel1.visible = False
+    self.IntroLabel2.visible = False
+    self.IntroLabel3.visible = False
     self.selectRegion.visible = False
     self.selectPokemon.visible = False
     self.selectAdd.visible = False
@@ -124,6 +128,10 @@ class Form1(Form1Template):
     pass
 
   def selectRemoveButton_click(self, **event_args):
+    self.welcomeLabel.visible = False
+    self.IntroLabel1.visible = False
+    self.IntroLabel2.visible = False
+    self.IntroLabel3.visible = False
     self.selectRegion.visible = False
     self.selectPokemon.visible = False
     self.selectAdd.visible = False
@@ -176,6 +184,10 @@ class Form1(Form1Template):
     self.addPkmEntry.tetx = ""
 
   def addPkmDone_click(self, **event_args):
+    self.welcomeLabel.visible = True
+    self.IntroLabel1.visible = True
+    self.IntroLabel2.visible = True
+    self.IntroLabel3.visible = True
     self.addPokemon.visible = False
     self.selectRegion.visible = True
     self.selectAdd.visible = True
@@ -197,6 +209,10 @@ class Form1(Form1Template):
     self.removePkmInfo2.visible = True
 
   def removePkmDone_click(self, **event_args):
+    self.welcomeLabel.visible = True
+    self.IntroLabel1.visible = True
+    self.IntroLabel2.visible = True
+    self.IntroLabel3.visible = True
     self.removePokemon.visible = False
     self.selectRegion.visible = True
     self.selectAdd.visible = True
