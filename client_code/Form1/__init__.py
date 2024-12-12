@@ -166,6 +166,14 @@ class Form1(Form1Template):
 
     self.addPkmDone.visible = True
     self.addPkmInfo2.visible = True
+    self.addRegion.text = ""
+    self.addPkmName.text = ""
+    self.addPkmId.text = ""
+    self.addPkmCat.text = ""
+    self.addPkmType.text = ""
+    self.addPkmAvgHeight.text = ""
+    self.addPkmAvgWeight.text = ""
+    self.addPkmEntry.tetx = ""
 
   def addPkmDone_click(self, **event_args):
     self.addPokemon.visible = False
