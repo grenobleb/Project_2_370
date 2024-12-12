@@ -163,15 +163,6 @@ class Form1(Form1Template):
 
     except Exception as e:
       alert(f"Error adding Pokémon: {e}")
-      
-      self.textBoxRegion.text = ""
-      self.textBoxId.text = ""
-      self.textBoxName.text = ""
-      self.textBoxCategory.text = ""
-      self.textBoxType.text = ""
-      self.textBoxAvgHeight.text = ""
-      self.textBoxAvgWeight.text = ""
-      self.textBoxDexEntry.text = ""
 
     self.addPkmDone.visible = True
     self.addPkmInfo2.visible = True
