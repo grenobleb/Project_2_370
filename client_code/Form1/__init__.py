@@ -9,8 +9,16 @@ class Form1(Form1Template):
     self.load_regions()
 
   def load_regions(self):
-    # Hardcode the regions or fetch them dynamically
-    self.dropDownRegion.items = ['Kanto', 'Johto', 'Hoenn']  # You can dynamically fetch regions if needed
+    try:
+      # Call the server to get the regions
+      regions = anvil.server.call('get_regions')
+      
+      if regions:
+        self.dropDownRegion.items = [(region, region) for region in regions]
+      else:
+        print("No regions found in the database.")
+    except Exception as e:
+      print(f"Error loading regions: {e}")
 
   def dropDownRegion_change(self, **event_args):
     # Get the selected region
@@ -60,37 +68,37 @@ class Form1(Form1Template):
         self.Pkm.text = self.dropDownPkm.selected_value
         
         tempId = str(pokemon_data['id'])
-        if (tempId == "None"):
+        if (tempId is None or tempId == ""):
           self.PkmId.text = "No data currently available"
         else:
           self.PkmId.text = tempId
           
         tempCat = pokemon_data['category']
-        if (tempCat is None):
+        if (tempCat is None or tempCat == ""): 
           self.PkmCategory.text = "No data currently available"
         else:
           self.PkmCategory.text = tempCat
           
         tempType = pokemon_data['type']
-        if (tempType is None):
+        if (tempType is None or tempType == ""):
           self.PkmType.text = "No data currently available"
         else:
           self.PkmType.text = tempType
         
         tempAvgH = f"{pokemon_data['avg_height']} m"
-        if (tempAvgH == "None m"):
+        if (tempAvgH is None or tempAvgH == " m" or tempAvgH == "None m"):
           self.PkmAvgHeight.text = "No data currently available"
         else:
           self.PkmAvgHeight.text = tempAvgH
         
         tempAvgW = f"{pokemon_data['avg_weight']} kg"
-        if (tempAvgW == "None kg"):
+        if (tempAvgW is None or tempAvgW == " kg" or tempAvgH == "None kg"):
           self.PkmAvgWeight.text = "No data currently available"
         else:
           self.PkmAvgWeight.text = tempAvgW
         
         tempEntry = pokemon_data['dex_entry']
-        if (tempEntry is None):
+        if (tempEntry is None or tempEntry == ""):
           self.PkmEntry.text = "No data currently available"
         else:
           self.PkmEntry.text = tempEntry
@@ -102,5 +110,59 @@ class Form1(Form1Template):
 
   def selectAddButton_click(self, **event_args):
     self.selectRegion.visible = False
+    self.selectAdd.visible = False
     self.addPokemon.visible = True
     pass
+
+  def addPkm_click(self, **event_args):
+    # Gather inputs
+    tAddRegion = self.addRegion.text
+    tAddId = self.addPkmId.text
+    tAddName = self.addPkmName.text
+    tAddCategory = self.addPkmCat.text
+    tAddType = self.addPkmType.text
+    tAddAvgHeight = self.addPkmAvgHeight.text
+    tAddAvgWeight = self.addPkmAvgWeight.text
+    tAddEntry = self.addPkmEntry.text
+
+    # Validate inputs
+    if (self.addPkmName.text is None):
+      alert("Pokemon must be registered with a name")
+      return
+
+    # Call server to add Pokémon
+    try:
+      result = anvil.server.call(
+        'add_pokemon',
+        tAddRegion,
+        tAddId,
+        tAddName,
+        tAddCategory,
+        tAddType,
+        tAddAvgHeight,
+        tAddAvgWeight,
+        tAddEntry
+      )
+      alert(result)
+      
+      self.textBoxRegion.text = ""
+      self.textBoxId.text = ""
+      self.textBoxName.text = ""
+      self.textBoxCategory.text = ""
+      self.textBoxType.text = ""
+      self.textBoxAvgHeight.text = ""
+      self.textBoxAvgWeight.text = ""
+      self.textBoxDexEntry.text = ""
+
+    except Exception as e:
+      alert(f"Error adding Pokémon: {e}")
+
+    self.addPkmDone.visible = True
+    self.addPkmInfo2.visible = True
+
+  def addPkmDone_click(self, **event_args):
+    self.addPokemon.visible = False
+    self.selectRegion.visible = True
+    self.selectAdd.visible = True
+
+  

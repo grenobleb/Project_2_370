@@ -18,6 +18,9 @@ db_schema:
     - admin_ui: {width: 200}
       name: type
       type: string
+    - admin_ui: {order: 7, width: 200}
+      name: dex_entry
+      type: string
     - admin_ui: {width: 200}
       name: avg_height
       type: string
