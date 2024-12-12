@@ -56,15 +56,45 @@ class Form1(Form1Template):
       if isinstance(pokemon_data, dict):  # Ensure we got a dictionary (not an error string)
         self.PokemonInfo.visible = True
         # Display Pokémon data in labels
-        if 
         self.selectedRegion.text = self.dropDownRegion.selected_value
         self.Pkm.text = self.dropDownPkm.selected_value
-        self.PkmId.text = str(pokemon_data['id'])
-        self.PkmCategory.text = pokemon_data['category']
-        self.PkmType.text = pokemon_data['type']
-        self.PkmAvgWeight.text = f"{pokemon_data['avg_weight']} kg"
-        self.PkmAvgHeight.text = f"{pokemon_data['avg_height']} m"
-        self.PkmEntry.text = pokemon_data['dex_entry']
+        
+        tempId = str(pokemon_data['id'])
+        if (tempId == "None"):
+          self.PkmId.text = "No data currently available"
+        else:
+          self.PkmId.text = tempId
+          
+        tempCat = pokemon_data['category']
+        if (tempCat is None):
+          self.PkmCategory.text = "No data currently available"
+        else:
+          self.PkmCategory.text = tempCat
+          
+        tempType = pokemon_data['type']
+        if (tempType is None):
+          self.PkmType.text = "No data currently available"
+        else:
+          self.PkmType.text = tempType
+        
+        tempAvgH = f"{pokemon_data['avg_height']} m"
+        if (tempAvgH == "None m"):
+          self.PkmAvgHeight.text = "No data currently available"
+        else:
+          self.PkmAvgHeight.text = tempAvgH
+        
+        tempAvgW = f"{pokemon_data['avg_weight']} kg"
+        if (tempAvgW == "None kg"):
+          self.PkmAvgWeight.text = "No data currently available"
+        else:
+          self.PkmAvgWeight.text = tempAvgW
+        
+        tempEntry = pokemon_data['dex_entry']
+        if (tempEntry is N):
+          self.PkmEntry.text = "No data currently available"
+        else:
+          self.PkmEntry.text = tempEntry
+        
       else:
         print(f"Error: {pokemon_data}")
     except Exception as e:
