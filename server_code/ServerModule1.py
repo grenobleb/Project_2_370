@@ -57,3 +57,21 @@ def add_pokemon(region, id, name, category, type, avg_height, avg_weight, dex_en
     dex_entry=dex_entry
   )
   return f"Successfully added Pokémon {name} to the Pokedex!"
+
+@anvil.server.callable
+def remove_pokemon_by_name(pokemon_name):
+    try:
+        # Search for the Pokémon in the table
+        rows = app_tables.pokemon.search(name=pokemon_name)
+        rows_deleted = 0
+        
+        for row in rows:
+            row.delete()  # Delete each matching row
+            rows_deleted += 1
+
+        if rows_deleted > 0:
+            return f"Successfully removed {rows_deleted} Pokémon named '{pokemon_name}'."
+        else:
+            return f"No Pokémon found with the name '{pokemon_name}'."
+    except Exception as e:
+        return f"Error removing Pokémon: {e}"

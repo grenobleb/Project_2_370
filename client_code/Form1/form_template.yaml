@@ -83,12 +83,17 @@ components:
   - components:
     - layout_properties: {col_xs: 0, row: KXVBIX, width_xs: 12}
       name: selectAdd_Label
-      properties: {align: center, font_size: 20, text: 'Or alternatively would you like to add a Pokemon to the Pokedex?', visible: true}
+      properties: {align: center, font_size: 20, text: 'Or alternatively would you like to modify the Pokedex?', visible: true}
       type: Label
     - event_bindings: {click: selectAddButton_click}
-      layout_properties: {col_xs: 4, row: XTVRBS, width_xs: 4}
+      layout_properties: {col_xs: 1, row: TUCNGI, width_xs: 4}
       name: selectAddButton
       properties: {text: Add Pokemon}
+      type: Button
+    - event_bindings: {click: selectRemoveButton_click}
+      layout_properties: {col_xs: 7, row: TUCNGI, width_xs: 4}
+      name: selectRemovePokemonButton
+      properties: {text: Remove Pokemon}
       type: Button
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK SEONGF,NMLXML'}
     name: selectAdd
@@ -392,6 +397,60 @@ components:
     event_bindings: {show: grid_panel_2_show}
     layout_properties: {grid_position: 'MCNBJQ,UKYDZK LCWCSE,WMQGKA'}
     name: addPokemon
+    properties: {visible: false}
+    type: GridPanel
+  - components:
+    - layout_properties: {col_xs: 0, row: KXVBIX, width_xs: 12}
+      name: removePkmInfo1
+      properties: {align: center, font_size: 20, text: Please input the name of the Pokemon you wish to remove, visible: true}
+      type: Label
+    - layout_properties: {col_xs: 0, row: UKCNGN, width_xs: 12}
+      name: removePkmInfo2
+      properties:
+        align: center
+        font_size: 20
+        text: |
+          Pokemon Successfully Removed!
+          Please either input another pokemon or select 'Done' below
+        visible: false
+      type: Label
+    - components:
+      - components:
+        - layout_properties: {}
+          name: selectedRegionLabel_copy_copy
+          properties:
+            text: |
+              Pokemon to be removed:
+          type: Label
+        - layout_properties: {}
+          name: removePkm
+          properties: {align: left}
+          type: TextBox
+        layout_properties: {grid_position: 'PFHCGV,LJJYUC'}
+        name: add1_copy
+        properties: {visible: true}
+        type: FlowPanel
+      - layout_properties: {grid_position: 'BVFOCX,TJPLMX'}
+        name: selectPokemonLabel_copy_copy_copy
+        properties: {align: center, font_size: 20, text: 'When complete, click button below', visible: true}
+        type: Label
+      - event_bindings: {click: removePkmButton_click}
+        layout_properties: {grid_position: 'ZFYKDR,LQABFE'}
+        name: removePkmButton
+        properties: {text: Remove}
+        type: Button
+      - event_bindings: {click: removePkmDone_click}
+        layout_properties: {grid_position: 'CRIANX,ZNVOGO'}
+        name: removePkmDone
+        properties: {text: Done, visible: false}
+        type: Button
+      layout_properties: {col_xs: 1, row: RBSFMH, width_xs: 10}
+      name: PokemonInfo_copy_copy
+      properties: {visible: true}
+      type: ColumnPanel
+    event_bindings: {show: grid_panel_2_show}
+    layout_properties: {grid_position: 'MCNBJQ,UKYDZK ZFNWIM,WZOTAH'}
+    name: removePokemon
     properties: {visible: false}
     type: GridPanel
   - layout_properties: {grid_position: 'MCNBJQ,EGUNFZ'}

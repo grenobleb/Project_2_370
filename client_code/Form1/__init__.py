@@ -25,7 +25,6 @@ class Form1(Form1Template):
     selected_region = self.dropDownRegion.selected_value
         
     if selected_region:
-      self.selectAdd.visible = False
       self.selectPokemon.visible = True
       # Fetch Pokémon from the selected region
       self.populate_pokemon_dropdown(selected_region)
@@ -110,8 +109,16 @@ class Form1(Form1Template):
 
   def selectAddButton_click(self, **event_args):
     self.selectRegion.visible = False
+    self.selectPokemon.visible = False
     self.selectAdd.visible = False
     self.addPokemon.visible = True
+    pass
+
+  def selectRemoveButton_click(self, **event_args):
+    self.selectRegion.visible = False
+    self.selectPokemon.visible = False
+    self.selectAdd.visible = False
+    self.removePokemon.visible = True
     pass
 
   def addPkm_click(self, **event_args):
@@ -165,4 +172,25 @@ class Form1(Form1Template):
     self.selectRegion.visible = True
     self.selectAdd.visible = True
 
+  def removePkmButton_click(self, **event_args):
+    pokemon_name = self.removePkm.text  # Get the name from the input box
+
+    if pokemon_name:  # Ensure the name is not empty
+        try:
+            result = anvil.server.call('remove_pokemon_by_name', pokemon_name)
+            alert(result)  # Display the result to the user
+            self.txtPokemonName.text = ""  # Clear the input box
+        except Exception as e:
+            alert(f"Error removing Pokémon: {e}")
+    else:
+        alert("Please enter a Pokémon name.")
+
+    self.removePkmDone.visible = True
+    self.removePkmInfo2.visible = True
+
+  def removePkmDone_click(self, **event_args):
+    self.removePokemon.visible = False
+    self.selectRegion.visible = True
+    self.selectAdd.visible = True
+    
   
