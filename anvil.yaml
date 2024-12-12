@@ -3,29 +3,32 @@ db_schema:
   pokemon:
     client: none
     columns:
-    - admin_ui: {order: 1.5, width: 200}
+    - admin_ui: {width: 200}
+      name: region
+      type: string
+    - admin_ui: {width: 200}
+      name: id
+      type: string
+    - admin_ui: {width: 200}
       name: name
       type: string
-    - admin_ui: {order: 3, width: 200}
+    - admin_ui: {width: 200}
       name: category
       type: string
-    - admin_ui: {order: 4, width: 200}
+    - admin_ui: {width: 200}
       name: type
       type: string
     - admin_ui: {order: 7, width: 200}
       name: dex_entry
       type: string
-    - admin_ui: {order: -1, width: 200}
-      name: region
-      type: string
-    - admin_ui: {order: -0.5, width: 200}
-      name: id
-      type: string
-    - admin_ui: {order: 4.25, width: 200}
+    - admin_ui: {width: 200}
       name: avg_height
       type: string
-    - admin_ui: {order: 4.625, width: 200}
+    - admin_ui: {width: 200}
       name: avg_weight
+      type: string
+    - admin_ui: {width: 200}
+      name: dex_entry
       type: string
     server: full
     title: pokemon

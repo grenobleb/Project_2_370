@@ -74,7 +74,7 @@ class Form1(Form1Template):
           self.PkmId.text = tempId
           
         tempCat = pokemon_data['category']
-        if (tempCat is None or tempCat == ""):
+        if (tempCat is None or tempCat == ""): 
           self.PkmCategory.text = "No data currently available"
         else:
           self.PkmCategory.text = tempCat

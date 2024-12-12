@@ -1,4 +1,4 @@
-name = "project"
+name = "Project_2_370"
 skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
 skipFiles = [ ".gitignore", "package.json" ]
 
@@ -7,8 +7,140 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
-  id = "task1"
-  title = "This is a new feature"
+  id = "w5185913kxd7rgkarlhqsvpp"
+  title = "Create Johto Database"
+  description = "<p>Add the region, id, name, type, height, weight, and pokedex entry</p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "nwtiel852btxesau3kt9bcec"
+  title = "Connect MongoDB"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ylghblbv046ohr2u5o4xrfdy"
+  title = "Create File For Reference On Where Info Was Found"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "dmmn796nc21nf6006iz5pwc6"
+  title = "Create NULL When Table Cell Is NULL"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ypyrc583usi49qlaxtlq2zuv"
+  title = "Create Client Code"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "kzhqpeikgw9vl6u61beigx19"
+  title = "Create Server Code"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "a4s4qbqo65z0tltg77bsofog"
+  title = "Connect Anvil to Github"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "i6zunc7th0106xsee5bjoqqf"
+  title = "Create Website Layout"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "oqvs495la2nrduooqhrmgtn0"
+  title = "Add Region Selection"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "ann0mj1npgnhhzyi92pot8es"
+  title = "Add Pokemon Selection"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "gnudmky55ggwov2kii02ut99"
+  title = "Create Database For Johto"
+  description = "<p>Add the region, id, name, type, height, weight, and pokedex entry</p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "n63gfkxwefccwq7sqg6u6dq5"
+  title = "Create Database For Hoenn"
+  description = "<p>Add the region, id, name, type, height, weight, and pokedex entry</p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "wshprq24ruhzyfusx49agqm7"
+  title = "Create Kanpilot To Do List"
   description = ""
   tag = "backlog"
   linkFiles = [ ]
@@ -22,9 +154,9 @@ id = "process2"
 name = "In Progress"
 
   [[processes.tasks]]
-  id = "task2"
-  title = "This is a bug should be repair"
-  description = ""
+  id = "aoxnblrbqdkg3quf9shhbtz4"
+  title = "ModuleNotFoundError; No Module Named 'pymongo'"
+  description = "<p></p>"
   tag = "bug"
   linkFiles = [ ]
   dueDate = ""
