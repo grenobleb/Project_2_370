@@ -150,7 +150,7 @@ class Form1(Form1Template):
     tAddEntry = self.addPkmEntry.text
 
     # Validate inputs
-    if (self.addPkmName.text is None):
+    if (self.addPkmName.text is None or self.addPkmName.text = ""):
       alert("Pokemon must be registered with a name")
       return
 
