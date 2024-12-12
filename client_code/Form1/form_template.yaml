@@ -48,7 +48,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'BGXTJM,DFPKEN NOHPXN,UNYWBO'}
     name: IntroLabel3_copy
-    properties: {align: center, font_size: 20, text: 'As a note: This was originally planned to have many more pokemon, the whole 386 of the original pokemon games. However this was with us using an external database which we tried relentlessly to make work, however we realized that anvil requires you to pay to be able to access external databases. We realized this unfortunately late into development, and you will still be able to see all the pokemon set up in a the ''pokedex.db'' file we tried to use, however in this system we only do the starter pokemon from each generation (so 9 from each, or 27 pokemon in total)'}
+    properties: {align: center, font_size: 20, text: ''}
     type: Label
   - layout_properties: {grid_position: 'BGXTJM,DQGNMQ'}
     name: spacer_4
