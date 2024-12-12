@@ -440,7 +440,7 @@ components:
         properties: {text: Remove}
         type: Button
       - layout_properties: {grid_position: 'UHDVYY,JRAXHD'}
-        name: removePkmInfo2_copy
+        name: removePkmInfo3
         properties:
           align: center
           font_size: 20
