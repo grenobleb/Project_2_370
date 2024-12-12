@@ -44,6 +44,7 @@ def get_pokemon_by_name(name):
     return f"Error fetching Pokémon data: {e}"
 
 @anvil.server.callable
+# Server callable which allows the server to add a pokemon and relevant data to the table
 def add_pokemon(region, id, name, category, type, avg_height, avg_weight, dex_entry):
   # Add a new Pokémon to the Pokedex Data Table
   app_tables.pokemon.add_row(
@@ -59,6 +60,7 @@ def add_pokemon(region, id, name, category, type, avg_height, avg_weight, dex_en
   return f"Successfully added Pokémon {name} to the Pokedex!"
 
 @anvil.server.callable
+# Server callable which allows the server to delete a pokemon and relevant data from the table
 def remove_pokemon_by_name(pokemon_name):
     try:
         # Search for the Pokémon in the table
