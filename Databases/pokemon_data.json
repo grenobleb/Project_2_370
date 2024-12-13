@@ -1,0 +1,2938 @@
+[
+    {
+        "Region": "Johto",
+        "Name": "Chikorita",
+        "ID": 1,
+        "Category": "Leaf Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "6.4 kg",
+        "Height": "0.9 m",
+        "Entry": "A sweet aroma wafts from its leaf. It is said to calm battling Pokémon."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Bayleef",
+        "ID": 2,
+        "Category": "Leaf Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "15.8 kg",
+        "Height": "1.2 m",
+        "Entry": "Its spicy aroma acts as a stimulant to restore health."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Meganium",
+        "ID": 3,
+        "Category": "Herb Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "100.5 kg",
+        "Height": "1.8 m",
+        "Entry": "Meganium's breath has the power to revive dead grass and plants."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Cyndaquil",
+        "ID": 4,
+        "Category": "Fire Mouse Pokémon",
+        "Typing": [
+            "Fire"
+        ],
+        "AverageWeight": "7.9 kg",
+        "Height": "0.5 m",
+        "Entry": "It flares flames from its back when it is angry or surprised."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Quilava",
+        "ID": 5,
+        "Category": "Volcano Pokémon",
+        "Typing": [
+            "Fire"
+        ],
+        "AverageWeight": "19.0 kg",
+        "Height": "0.9 m",
+        "Entry": "Its fire burns with intensity as it prepares to battle."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Typhlosion",
+        "ID": 6,
+        "Category": "Volcano Pokémon",
+        "Typing": [
+            "Fire"
+        ],
+        "AverageWeight": "79.5 kg",
+        "Height": "1.7 m",
+        "Entry": "It can hide behind a shimmering heat haze that it creates."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Totodile",
+        "ID": 7,
+        "Category": "Big Jaw Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "9.5 kg",
+        "Height": "0.6 m",
+        "Entry": "Its jaws are powerful and can crush anything."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Croconaw",
+        "ID": 8,
+        "Category": "Big Jaw Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "25.0 kg",
+        "Height": "1.1 m",
+        "Entry": "Once it bites down, it won't let go until it loses its fangs."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Feraligatr",
+        "ID": 9,
+        "Category": "Big Jaw Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "88.8 kg",
+        "Height": "2.3 m",
+        "Entry": "It usually moves slowly, but it goes at blinding speed when it attacks."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Pidgey",
+        "ID": 10,
+        "Category": "Tiny Bird Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "1.8 kg",
+        "Height": "0.3 m",
+        "Entry": "A docile Pokémon that avoids fighting. It spreads its wings to scare foes."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Pidgeotto",
+        "ID": 11,
+        "Category": "Bird Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "30.0 kg",
+        "Height": "1.1 m",
+        "Entry": "It flies over its territory and patrols it constantly."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Pidgeot",
+        "ID": 12,
+        "Category": "Bird Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "39.5 kg",
+        "Height": "1.5 m",
+        "Entry": "When hunting, it skims the surface of water at high speeds."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Spearow",
+        "ID": 13,
+        "Category": "Tiny Bird Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "2.0 kg",
+        "Height": "0.3 m",
+        "Entry": "It flaps its wings to maintain balance while flying."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Fearow",
+        "ID": 14,
+        "Category": "Beak Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "38.0 kg",
+        "Height": "1.2 m",
+        "Entry": "With its huge and magnificent wings, it can keep aloft without ever having to land."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Hoothoot",
+        "ID": 15,
+        "Category": "Owl Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "21.2 kg",
+        "Height": "0.7 m",
+        "Entry": "It always stands on one foot, even when asleep."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Noctowl",
+        "ID": 16,
+        "Category": "Owl Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "40.8 kg",
+        "Height": "1.6 m",
+        "Entry": "Its eyes are specially adapted to see clearly in the dark."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Rattata",
+        "ID": 17,
+        "Category": "Mouse Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "3.5 kg",
+        "Height": "0.3 m",
+        "Entry": "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Raticate",
+        "ID": 18,
+        "Category": "Mouse Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "18.5 kg",
+        "Height": "0.7 m",
+        "Entry": "It whittles its constantly growing fangs by gnawing on hard objects."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Sentret",
+        "ID": 19,
+        "Category": "Scout Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "6.0 kg",
+        "Height": "0.8 m",
+        "Entry": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Furret",
+        "ID": 20,
+        "Category": "Long Body Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "32.5 kg",
+        "Height": "1.8 m",
+        "Entry": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Pichu",
+        "ID": 21,
+        "Category": "Tiny Mouse Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "2.0 kg",
+        "Height": "0.3 m",
+        "Entry": "It is not yet skilled at storing electricity. It may discharge if startled or amused."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Pikachu",
+        "ID": 22,
+        "Category": "Mouse Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "6.0 kg",
+        "Height": "0.4 m",
+        "Entry": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Raichu",
+        "ID": 23,
+        "Category": "Mouse Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "30.0 kg",
+        "Height": "0.8 m",
+        "Entry": "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Caterpie",
+        "ID": 24,
+        "Category": "Worm Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "2.9 kg",
+        "Height": "0.3 m",
+        "Entry": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Metapod",
+        "ID": 25,
+        "Category": "Cocoon Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "9.9 kg",
+        "Height": "0.7 m",
+        "Entry": "It is waiting for the moment to evolve. At this stage, it can only harden its shell to protect itself."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Butterfree",
+        "ID": 26,
+        "Category": "Butterfly Pokémon",
+        "Typing": [
+            "Bug",
+            "Flying"
+        ],
+        "AverageWeight": "32.0 kg",
+        "Height": "1.1 m",
+        "Entry": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Weedle",
+        "ID": 27,
+        "Category": "Hairy Bug Pokémon",
+        "Typing": [
+            "Bug",
+            "Poison"
+        ],
+        "AverageWeight": "3.2 kg",
+        "Height": "0.3 m",
+        "Entry": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Kakuna",
+        "ID": 28,
+        "Category": "Cocoon Pokémon",
+        "Typing": [
+            "Bug",
+            "Poison"
+        ],
+        "AverageWeight": "10.0 kg",
+        "Height": "0.6 m",
+        "Entry": "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Beedrill",
+        "ID": 29,
+        "Category": "Poison Bee Pokémon",
+        "Typing": [
+            "Bug",
+            "Poison"
+        ],
+        "AverageWeight": "29.5 kg",
+        "Height": "1.0 m",
+        "Entry": "It flies at high speed and attacks using the large, venomous stingers on its forelegs and tail."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Ledyba",
+        "ID": 30,
+        "Category": "Five Star Pokémon",
+        "Typing": [
+            "Bug",
+            "Flying"
+        ],
+        "AverageWeight": "10.8 kg",
+        "Height": "1.0 m",
+        "Entry": "It is timid and clusters together with others. The fluid secreted by its feet indicates its location."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Ledian",
+        "ID": 31,
+        "Category": "Five Star Pokémon",
+        "Typing": [
+            "Bug",
+            "Flying"
+        ],
+        "AverageWeight": "35.6 kg",
+        "Height": "1.4 m",
+        "Entry": "The spots on its back grow larger or smaller depending on the number of stars in the night sky."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Spinarak",
+        "ID": 32,
+        "Category": "String Spit Pokémon",
+        "Typing": [
+            "Bug",
+            "Poison"
+        ],
+        "AverageWeight": "8.5 kg",
+        "Height": "0.5 m",
+        "Entry": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Ariados",
+        "ID": 33,
+        "Category": "Long Leg Pokémon",
+        "Typing": [
+            "Bug",
+            "Poison"
+        ],
+        "AverageWeight": "33.5 kg",
+        "Height": "1.1 m",
+        "Entry": "It spins string not only from its rear but also from its mouth. It's hard to tell which end is which."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Geodude",
+        "ID": 34,
+        "Category": "Rock Pokémon",
+        "Typing": [
+            "Rock",
+            "Ground"
+        ],
+        "AverageWeight": "20.0 kg",
+        "Height": "0.4 m",
+        "Entry": "Commonly found near mountain trails and the like. If you step on one by accident, it gets angry."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Graveler",
+        "ID": 35,
+        "Category": "Rock Pokémon",
+        "Typing": [
+            "Rock",
+            "Ground"
+        ],
+        "AverageWeight": "105.0 kg",
+        "Height": "1.0 m",
+        "Entry": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Golem",
+        "ID": 36,
+        "Category": "Megaton Pokémon",
+        "Typing": [
+            "Rock",
+            "Ground"
+        ],
+        "AverageWeight": "300.0 kg",
+        "Height": "1.4 m",
+        "Entry": "Its body can survive dynamite blasts without a single scratch. It sheds its hide once a year."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Zubat",
+        "ID": 37,
+        "Category": "Bat Pokémon",
+        "Typing": [
+            "Poison",
+            "Flying"
+        ],
+        "AverageWeight": "7.5 kg",
+        "Height": "0.8 m",
+        "Entry": "Forms colonies in perpetually dark places. It uses ultrasonic waves to identify and approach targets."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Golbat",
+        "ID": 38,
+        "Category": "Bat Pokémon",
+        "Typing": [
+            "Poison",
+            "Flying"
+        ],
+        "AverageWeight": "55.0 kg",
+        "Height": "1.6 m",
+        "Entry": "It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Crobat",
+        "ID": 39,
+        "Category": "Bat Pokémon",
+        "Typing": [
+            "Poison",
+            "Flying"
+        ],
+        "AverageWeight": "75.0 kg",
+        "Height": "1.8 m",
+        "Entry": "With its two additional wings, Crobat can fly much faster than its previous evolutions."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Cleffa",
+        "ID": 40,
+        "Category": "Star Shape Pokémon",
+        "Typing": [
+            "Fairy"
+        ],
+        "AverageWeight": "3.0 kg",
+        "Height": "0.3 m",
+        "Entry": "It is often seen when shooting stars fill the night skies. It's said to arrive riding on a shooting star."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Clefairy",
+        "ID": 41,
+        "Category": "Fairy Pokémon",
+        "Typing": [
+            "Fairy"
+        ],
+        "AverageWeight": "7.5 kg",
+        "Height": "0.6 m",
+        "Entry": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Clefable",
+        "ID": 42,
+        "Category": "Fairy Pokémon",
+        "Typing": [
+            "Fairy"
+        ],
+        "AverageWeight": "40.0 kg",
+        "Height": "1.3 m",
+        "Entry": "They are difficult to find because they move about at night. The ears can hear a pin drop from a kilometer away."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Igglybuff",
+        "ID": 43,
+        "Category": "Balloon Pokémon",
+        "Typing": [
+            "Normal",
+            "Fairy"
+        ],
+        "AverageWeight": "1.0 kg",
+        "Height": "0.3 m",
+        "Entry": "Its soft and pliable body is very bouncy. When it sings continuously with all its might, its body starts shaking."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Jigglypuff",
+        "ID": 44,
+        "Category": "Balloon Pokémon",
+        "Typing": [
+            "Normal",
+            "Fairy"
+        ],
+        "AverageWeight": "5.5 kg",
+        "Height": "0.5 m",
+        "Entry": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Wigglytuff",
+        "ID": 45,
+        "Category": "Balloon Pokémon",
+        "Typing": [
+            "Normal",
+            "Fairy"
+        ],
+        "AverageWeight": "12.0 kg",
+        "Height": "1.0 m",
+        "Entry": "It has a soft, plump body that bounces delightfully. Its fur feels so good that if two of them snuggle together, they won't want to be separated."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Togepi",
+        "ID": 46,
+        "Category": "Spike Ball Pokémon",
+        "Typing": [
+            "Fairy"
+        ],
+        "AverageWeight": "1.5 kg",
+        "Height": "0.3 m",
+        "Entry": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Togetic",
+        "ID": 47,
+        "Category": "Happiness Pokémon",
+        "Typing": [
+            "Fairy",
+            "Flying"
+        ],
+        "AverageWeight": "3.2 kg",
+        "Height": "0.6 m",
+        "Entry": "They say that it will appear before kindhearted, caring people and shower them with happiness."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Sandshrew",
+        "ID": 48,
+        "Category": "Mouse Pokémon",
+        "Typing": [
+            "Ground"
+        ],
+        "AverageWeight": "12.0 kg",
+        "Height": "0.6 m",
+        "Entry": "It burrows deep underground in arid locations far from water. It only emerges to hunt for food."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Sandslash",
+        "ID": 49,
+        "Category": "Mouse Pokémon",
+        "Typing": [
+            "Ground"
+        ],
+        "AverageWeight": "29.5 kg",
+        "Height": "1.0 m",
+        "Entry": "It curls up in a ball to protect itself from enemy attacks. It also curls up to prevent heatstroke."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Ekans",
+        "ID": 50,
+        "Category": "Snake Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "6.9 kg",
+        "Height": "2.0 m",
+        "Entry": "It sneaks through grass without making a sound and strikes unwary prey with its venomous fangs."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Arbok",
+        "ID": 51,
+        "Category": "Cobra Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "65.0 kg",
+        "Height": "3.5 m",
+        "Entry": "To intimidate foes, it spreads its chest wide and makes eerie patterns with its body."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Dunsparce",
+        "ID": 52,
+        "Category": "Land Snake Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "14.0 kg",
+        "Height": "1.5 m",
+        "Entry": "It digs into the ground with its tail and makes a maze-like nest. It can float slightly using its wings."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Mareep",
+        "ID": 53,
+        "Category": "Wool Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "7.8 kg",
+        "Height": "0.6 m",
+        "Entry": "Its fluffy wool stores electricity. It shocks foes with the static electricity in its fleece."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Flaaffy",
+        "ID": 54,
+        "Category": "Wool Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "13.3 kg",
+        "Height": "0.8 m",
+        "Entry": "Its fleece grows even more when static electricity builds up. Touching it can cause shocks."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Ampharos",
+        "ID": 55,
+        "Category": "Light Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "61.5 kg",
+        "Height": "1.4 m",
+        "Entry": "The light from its tail can be seen from space. It is used to send signals to distant regions."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Wooper",
+        "ID": 56,
+        "Category": "Water Fish Pokémon",
+        "Typing": [
+            "Water",
+            "Ground"
+        ],
+        "AverageWeight": "8.5 kg",
+        "Height": "0.4 m",
+        "Entry": "When it walks around on the ground, it coats its body with a slimy, poisonous film."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Quagsire",
+        "ID": 57,
+        "Category": "Water Fish Pokémon",
+        "Typing": [
+            "Water",
+            "Ground"
+        ],
+        "AverageWeight": "75.0 kg",
+        "Height": "1.4 m",
+        "Entry": "It has a relaxed nature. It doesn’t care if it bumps its head on boats and boulders while swimming."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Gastly",
+        "ID": 58,
+        "Category": "Gas Pokémon",
+        "Typing": [
+            "Ghost",
+            "Poison"
+        ],
+        "AverageWeight": "0.1 kg",
+        "Height": "1.3 m",
+        "Entry": "Born from gases, it can envelop an opponent in its toxic gas, causing them to faint."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Haunter",
+        "ID": 59,
+        "Category": "Gas Pokémon",
+        "Typing": [
+            "Ghost",
+            "Poison"
+        ],
+        "AverageWeight": "0.1 kg",
+        "Height": "1.6 m",
+        "Entry": "It lurks in darkness and stares into the victim's soul. Its chilling touch causes endless shivering."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Gengar",
+        "ID": 60,
+        "Category": "Shadow Pokémon",
+        "Typing": [
+            "Ghost",
+            "Poison"
+        ],
+        "AverageWeight": "40.5 kg",
+        "Height": "1.5 m",
+        "Entry": "It hides in the shadows of people and Pokémon, waiting for a chance to strike."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Unown",
+        "ID": 61,
+        "Category": "Symbol Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "5.0 kg",
+        "Height": "0.5 m",
+        "Entry": "Shaped like ancient writing, it is a mystery whether it came first or the writing came first."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Onix",
+        "ID": 62,
+        "Category": "Rock Snake Pokémon",
+        "Typing": [
+            "Rock",
+            "Ground"
+        ],
+        "AverageWeight": "210.0 kg",
+        "Height": "8.8 m",
+        "Entry": "It burrows through the ground at a speed of 80 km/h while feeding on large boulders."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Steelix",
+        "ID": 63,
+        "Category": "Iron Snake Pokémon",
+        "Typing": [
+            "Steel",
+            "Ground"
+        ],
+        "AverageWeight": "400.0 kg",
+        "Height": "9.2 m",
+        "Entry": "It is said that if an Onix lives for over 100 years, its body slowly becomes harder than diamonds."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Bellsprout",
+        "ID": 64,
+        "Category": "Flower Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "4.0 kg",
+        "Height": "0.7 m",
+        "Entry": "A carnivorous Pokémon that traps and eats bugs. It uses its roots as feet to walk around."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Weepinbell",
+        "ID": 65,
+        "Category": "Flycatcher Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "6.4 kg",
+        "Height": "1.0 m",
+        "Entry": "When hungry, it swallows anything that moves. Its hunger rarely allows it to think carefully."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Victreebel",
+        "ID": 66,
+        "Category": "Flycatcher Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "15.5 kg",
+        "Height": "1.7 m",
+        "Entry": "Lures prey with a sweet scent and swallows it whole. The inside of its body is filled with acids."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Hoppip",
+        "ID": 67,
+        "Category": "Cottonweed Pokémon",
+        "Typing": [
+            "Grass",
+            "Flying"
+        ],
+        "AverageWeight": "0.5 kg",
+        "Height": "0.4 m",
+        "Entry": "It drifts on winds. If it senses the approach of strong winds, it links its leaves with others to stay grounded."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Skiploom",
+        "ID": 68,
+        "Category": "Cottonweed Pokémon",
+        "Typing": [
+            "Grass",
+            "Flying"
+        ],
+        "AverageWeight": "1.0 kg",
+        "Height": "0.6 m",
+        "Entry": "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Jumpluff",
+        "ID": 69,
+        "Category": "Cottonweed Pokémon",
+        "Typing": [
+            "Grass",
+            "Flying"
+        ],
+        "AverageWeight": "3.0 kg",
+        "Height": "0.8 m",
+        "Entry": "It rides warm southern winds to cross the sea and fly to foreign lands."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Paras",
+        "ID": 70,
+        "Category": "Mushroom Pokémon",
+        "Typing": [
+            "Bug",
+            "Grass"
+        ],
+        "AverageWeight": "5.4 kg",
+        "Height": "0.3 m",
+        "Entry": "Mushrooms sprout from its back. They grow by drawing nutrients from the bug host."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Paras",
+        "ID": 71,
+        "Category": "Mushroom Pokémon",
+        "Typing": [
+            "Bug",
+            "Grass"
+        ],
+        "AverageWeight": "5.4 kg",
+        "Height": "0.3 m",
+        "Entry": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow by drawing nutrients from the host."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Parasect",
+        "ID": 72,
+        "Category": "Mushroom Pokémon",
+        "Typing": [
+            "Bug",
+            "Grass"
+        ],
+        "AverageWeight": "29.5 kg",
+        "Height": "1.0 m",
+        "Entry": "The bug is mostly dead, with the mushroom on its back having taken over its body."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Poliwag",
+        "ID": 73,
+        "Category": "Tadpole Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "12.4 kg",
+        "Height": "0.6 m",
+        "Entry": "Its skin is so thin, its internal organs are visible. It has trouble walking on its newly grown legs."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Poliwhirl",
+        "ID": 74,
+        "Category": "Tadpole Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "20.0 kg",
+        "Height": "1.0 m",
+        "Entry": "It can live in or out of the water. When out of the water, it sweats to keep its body slimy."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Poliwrath",
+        "ID": 75,
+        "Category": "Tadpole Pokémon",
+        "Typing": [
+            "Water",
+            "Fighting"
+        ],
+        "AverageWeight": "54.0 kg",
+        "Height": "1.3 m",
+        "Entry": "Its brawny body is full of muscles. It can swim through the toughest currents in powerful bursts."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Politoed",
+        "ID": 76,
+        "Category": "Frog Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "33.9 kg",
+        "Height": "1.1 m",
+        "Entry": "They gather on moonlit nights to sing in a chorus. The cries sound angry and yet joyous."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Magikarp",
+        "ID": 77,
+        "Category": "Fish Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "10.0 kg",
+        "Height": "0.9 m",
+        "Entry": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Gyarados",
+        "ID": 78,
+        "Category": "Atrocious Pokémon",
+        "Typing": [
+            "Water",
+            "Flying"
+        ],
+        "AverageWeight": "235.0 kg",
+        "Height": "6.5 m",
+        "Entry": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Goldeen",
+        "ID": 79,
+        "Category": "Goldfish Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "15.0 kg",
+        "Height": "0.6 m",
+        "Entry": "It swims elegantly by flapping its tail fin as if it were a dress. It has the nickname of the 'Water Queen.'"
+    },
+    {
+        "Region": "Johto",
+        "Name": "Seaking",
+        "ID": 80,
+        "Category": "Goldfish Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "39.0 kg",
+        "Height": "1.3 m",
+        "Entry": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Slowpoke",
+        "ID": 81,
+        "Category": "Dopey Pokémon",
+        "Typing": [
+            "Water",
+            "Psychic"
+        ],
+        "AverageWeight": "36.0 kg",
+        "Height": "1.2 m",
+        "Entry": "It is always so absent-minded that it won't react, even if its flavorful tail is bitten."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Slowbro",
+        "ID": 82,
+        "Category": "Hermit Crab Pokémon",
+        "Typing": [
+            "Water",
+            "Psychic"
+        ],
+        "AverageWeight": "78.5 kg",
+        "Height": "1.6 m",
+        "Entry": "An attached Shellder won't let go because of the tasty flavor that oozes from its tail."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Slowking",
+        "ID": 83,
+        "Category": "Royal Pokémon",
+        "Typing": [
+            "Water",
+            "Psychic"
+        ],
+        "AverageWeight": "79.5 kg",
+        "Height": "2.0 m",
+        "Entry": "When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Oddish",
+        "ID": 84,
+        "Category": "Weed Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "5.4 kg",
+        "Height": "0.5 m",
+        "Entry": "It wanders around at night, sowing its seeds in the moonlight. During the day, it stays still, hiding in the ground."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Gloom",
+        "ID": 85,
+        "Category": "Weed Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "8.6 kg",
+        "Height": "0.8 m",
+        "Entry": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Vileplume",
+        "ID": 86,
+        "Category": "Flower Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "18.6 kg",
+        "Height": "1.2 m",
+        "Entry": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Bellossom",
+        "ID": 87,
+        "Category": "Flower Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "5.8 kg",
+        "Height": "0.4 m",
+        "Entry": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Drowzee",
+        "ID": 88,
+        "Category": "Hypnosis Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "32.4 kg",
+        "Height": "1.0 m",
+        "Entry": "If your nose itches while you are sleeping, it's a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Hypno",
+        "ID": 89,
+        "Category": "Hypnosis Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "75.6 kg",
+        "Height": "1.6 m",
+        "Entry": "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Abra",
+        "ID": 90,
+        "Category": "Psi Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "19.5 kg",
+        "Height": "0.9 m",
+        "Entry": "It sleeps for 18 hours a day. It uses a variety of extrasensory powers even while asleep."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Kadabra",
+        "ID": 91,
+        "Category": "Psi Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "56.5 kg",
+        "Height": "1.3 m",
+        "Entry": "It emits special alpha waves from its body that induce headaches just by being close by."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Alakazam",
+        "ID": 92,
+        "Category": "Psi Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "48.0 kg",
+        "Height": "1.5 m",
+        "Entry": "Its brain cells multiply continually until it dies. As a result, it remembers everything."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Ditto",
+        "ID": 93,
+        "Category": "Transform Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "4.0 kg",
+        "Height": "0.3 m",
+        "Entry": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Pineco",
+        "ID": 94,
+        "Category": "Bagworm Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "7.2 kg",
+        "Height": "0.6 m",
+        "Entry": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Forretress",
+        "ID": 95,
+        "Category": "Bagworm Pokémon",
+        "Typing": [
+            "Bug",
+            "Steel"
+        ],
+        "AverageWeight": "125.8 kg",
+        "Height": "1.2 m",
+        "Entry": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Nidoran♀",
+        "ID": 96,
+        "Category": "Poison Pin Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "7.0 kg",
+        "Height": "0.4 m",
+        "Entry": "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Nidorina",
+        "ID": 97,
+        "Category": "Poison Pin Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "20.0 kg",
+        "Height": "0.8 m",
+        "Entry": "When it is with its friends or family, its barbs are tucked away to prevent injury."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Nidoqueen",
+        "ID": 98,
+        "Category": "Drill Pokémon",
+        "Typing": [
+            "Poison",
+            "Ground"
+        ],
+        "AverageWeight": "60.0 kg",
+        "Height": "1.3 m",
+        "Entry": "Its body is covered with hard scales. It will protect the young in its burrow with its life."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Nidoran♂",
+        "ID": 99,
+        "Category": "Poison Pin Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "9.0 kg",
+        "Height": "0.5 m",
+        "Entry": "The male Nidoran has developed muscles that freely move its ears in any direction."
+    },
+    {
+        "Region": "Johto",
+        "Name": "Nidorino",
+        "ID": 100,
+        "Category": "Poison Pin Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "19.5 kg",
+        "Height": "0.9 m",
+        "Entry": "Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Treecko",
+        "ID": 1,
+        "Category": "Wood Gecko Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "5.0 kg",
+        "Height": "0.5 m",
+        "Entry": "Treecko is cool, calm, and collected—it never panics under any situation."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Grovyle",
+        "ID": 2,
+        "Category": "Wood Gecko Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "21.6 kg",
+        "Height": "0.9 m",
+        "Entry": "Its strongly developed thigh muscles give it astounding agility and jumping prowess."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Sceptile",
+        "ID": 3,
+        "Category": "Forest Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "52.2 kg",
+        "Height": "1.7 m",
+        "Entry": "It agilely leaps about the jungle and attacks with its sharp leaf-covered tail."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Torchic",
+        "ID": 4,
+        "Category": "Chick Pokémon",
+        "Typing": [
+            "Fire"
+        ],
+        "AverageWeight": "2.5 kg",
+        "Height": "0.4 m",
+        "Entry": "It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Combusken",
+        "ID": 5,
+        "Category": "Young Fowl Pokémon",
+        "Typing": [
+            "Fire",
+            "Fighting"
+        ],
+        "AverageWeight": "19.5 kg",
+        "Height": "0.9 m",
+        "Entry": "It lashes out with 10 kicks per second. Its quick fighting style overwhelms foes."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Blaziken",
+        "ID": 6,
+        "Category": "Blaze Pokémon",
+        "Typing": [
+            "Fire",
+            "Fighting"
+        ],
+        "AverageWeight": "52.0 kg",
+        "Height": "1.9 m",
+        "Entry": "Blaziken’s legs possess strength and speed to jump over skyscrapers."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Mudkip",
+        "ID": 7,
+        "Category": "Mud Fish Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "7.6 kg",
+        "Height": "0.4 m",
+        "Entry": "To alert it to danger, Mudkip’s fin senses the flow of water."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Marshtomp",
+        "ID": 8,
+        "Category": "Mud Fish Pokémon",
+        "Typing": [
+            "Water",
+            "Ground"
+        ],
+        "AverageWeight": "28.0 kg",
+        "Height": "0.7 m",
+        "Entry": "Its sturdy legs give it sure footing even in mud. It burrows into muddy ground to sleep."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Swampert",
+        "ID": 9,
+        "Category": "Mud Fish Pokémon",
+        "Typing": [
+            "Water",
+            "Ground"
+        ],
+        "AverageWeight": "81.9 kg",
+        "Height": "1.5 m",
+        "Entry": "It can swim as fast as a jet ski. It also has strength to move boulders that weigh more than a ton."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Poochyena",
+        "ID": 10,
+        "Category": "Bite Pokémon",
+        "Typing": [
+            "Dark"
+        ],
+        "AverageWeight": "13.6 kg",
+        "Height": "0.5 m",
+        "Entry": "It savagely threatens foes with bared fangs. It chases after prey until the victim becomes exhausted."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Mightyena",
+        "ID": 11,
+        "Category": "Bite Pokémon",
+        "Typing": [
+            "Dark"
+        ],
+        "AverageWeight": "37.0 kg",
+        "Height": "1.0 m",
+        "Entry": "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Zigzagoon",
+        "ID": 12,
+        "Category": "Tiny Raccoon Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "17.5 kg",
+        "Height": "0.4 m",
+        "Entry": "Zigzagoon constantly explores. It relentlessly zigzags in search of food and items."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Linoone",
+        "ID": 13,
+        "Category": "Rushing Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "32.5 kg",
+        "Height": "0.5 m",
+        "Entry": "It runs in a straight line at top speed. If it finds an obstacle, it makes a right-angle turn to evade it."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Wurmple",
+        "ID": 14,
+        "Category": "Worm Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "3.6 kg",
+        "Height": "0.3 m",
+        "Entry": "It spits silk to entangle foes. It does so as a defense to escape."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Silcoon",
+        "ID": 15,
+        "Category": "Cocoon Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "10.0 kg",
+        "Height": "0.6 m",
+        "Entry": "Silcoon tethers itself to a tree branch using silk to keep from falling. It awaits evolution."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Beautifly",
+        "ID": 16,
+        "Category": "Butterfly Pokémon",
+        "Typing": [
+            "Bug",
+            "Flying"
+        ],
+        "AverageWeight": "28.4 kg",
+        "Height": "1.0 m",
+        "Entry": "Beautifly’s favorite food is the sweet pollen of flowers. If it’s attacked, it flaps its wings to repel foes."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Cascoon",
+        "ID": 17,
+        "Category": "Cocoon Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "11.5 kg",
+        "Height": "0.7 m",
+        "Entry": "Cascoon remains motionless, awaiting evolution. It stores energy by lying still."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Dustox",
+        "ID": 18,
+        "Category": "Poison Moth Pokémon",
+        "Typing": [
+            "Bug",
+            "Poison"
+        ],
+        "AverageWeight": "31.6 kg",
+        "Height": "1.2 m",
+        "Entry": "It scatters its fine, toxic dust when it flies. It is nocturnal and is attracted to light."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Lotad",
+        "ID": 19,
+        "Category": "Water Weed Pokémon",
+        "Typing": [
+            "Water",
+            "Grass"
+        ],
+        "AverageWeight": "2.6 kg",
+        "Height": "0.5 m",
+        "Entry": "Lotad is very helpful. It carries small Pokémon across ponds by ferrying them on its broad leaf."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Lombre",
+        "ID": 20,
+        "Category": "Jolly Pokémon",
+        "Typing": [
+            "Water",
+            "Grass"
+        ],
+        "AverageWeight": "32.5 kg",
+        "Height": "1.2 m",
+        "Entry": "It is mischievous and likes to pull pranks on people. It can appear out of rivers and scare unwary people."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Ludicolo",
+        "ID": 21,
+        "Category": "Carefree Pokémon",
+        "Typing": [
+            "Water",
+            "Grass"
+        ],
+        "AverageWeight": "55.0 kg",
+        "Height": "1.5 m",
+        "Entry": "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Seedot",
+        "ID": 22,
+        "Category": "Acorn Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "4.0 kg",
+        "Height": "0.5 m",
+        "Entry": "It attaches itself to a tree branch using the top of its head. It sucks moisture from the tree."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Nuzleaf",
+        "ID": 23,
+        "Category": "Wily Pokémon",
+        "Typing": [
+            "Grass",
+            "Dark"
+        ],
+        "AverageWeight": "28.0 kg",
+        "Height": "1.0 m",
+        "Entry": "Nuzleaf live in densely overgrown forests. They occasionally appear in towns and scare people."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Shiftry",
+        "ID": 24,
+        "Category": "Wicked Pokémon",
+        "Typing": [
+            "Grass",
+            "Dark"
+        ],
+        "AverageWeight": "59.6 kg",
+        "Height": "1.3 m",
+        "Entry": "Shiftry is a mysterious Pokémon that is said to live atop towering trees dating back over a thousand years."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Taillow",
+        "ID": 25,
+        "Category": "Tiny Swallow Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "2.3 kg",
+        "Height": "0.3 m",
+        "Entry": "It dislikes cold seasons. It migrates to other lands in search of warmth, flying over 180 miles a day."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Swellow",
+        "ID": 26,
+        "Category": "Swallow Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "19.8 kg",
+        "Height": "0.7 m",
+        "Entry": "Swellow flies high above our heads, making graceful arcs in the sky."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Wingull",
+        "ID": 27,
+        "Category": "Seagull Pokémon",
+        "Typing": [
+            "Water",
+            "Flying"
+        ],
+        "AverageWeight": "9.5 kg",
+        "Height": "0.6 m",
+        "Entry": "It rides the winds and flies over the sea. It folds its wings to rest when it reaches the shore."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Pelipper",
+        "ID": 28,
+        "Category": "Water Bird Pokémon",
+        "Typing": [
+            "Water",
+            "Flying"
+        ],
+        "AverageWeight": "28.0 kg",
+        "Height": "1.2 m",
+        "Entry": "It skims the top of waves as it flies. It carries small Pokémon in its beak and hoards them as food."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Ralts",
+        "ID": 29,
+        "Category": "Feeling Pokémon",
+        "Typing": [
+            "Psychic",
+            "Fairy"
+        ],
+        "AverageWeight": "6.6 kg",
+        "Height": "0.4 m",
+        "Entry": "Ralts senses the emotions of people using the horns on its head. It rarely appears before people."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Kirlia",
+        "ID": 30,
+        "Category": "Emotion Pokémon",
+        "Typing": [
+            "Psychic",
+            "Fairy"
+        ],
+        "AverageWeight": "20.2 kg",
+        "Height": "0.8 m",
+        "Entry": "If Kirlia's Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Gardevoir",
+        "ID": 31,
+        "Category": "Embrace Pokémon",
+        "Typing": [
+            "Psychic",
+            "Fairy"
+        ],
+        "AverageWeight": "48.4 kg",
+        "Height": "1.6 m",
+        "Entry": "Gardevoir has the power to predict the future. It will protect its Trainer at any cost."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Surskit",
+        "ID": 32,
+        "Category": "Pond Skater Pokémon",
+        "Typing": [
+            "Bug",
+            "Water"
+        ],
+        "AverageWeight": "1.7 kg",
+        "Height": "0.5 m",
+        "Entry": "It moves as if skating on the surface of water. It often feeds on aquatic microorganisms."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Masquerain",
+        "ID": 33,
+        "Category": "Eyeball Pokémon",
+        "Typing": [
+            "Bug",
+            "Flying"
+        ],
+        "AverageWeight": "3.6 kg",
+        "Height": "0.8 m",
+        "Entry": "It intimidates enemies with the eyelike patterns on its wings. When it rains, it retreats to a safe place."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Shroomish",
+        "ID": 34,
+        "Category": "Mushroom Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "4.5 kg",
+        "Height": "0.4 m",
+        "Entry": "Shroomish lives in damp soil in the dark depths of forests. It feeds on compost made of fallen leaves."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Breloom",
+        "ID": 35,
+        "Category": "Mushroom Pokémon",
+        "Typing": [
+            "Grass",
+            "Fighting"
+        ],
+        "AverageWeight": "39.2 kg",
+        "Height": "1.2 m",
+        "Entry": "Breloom’s fighting technique puts boxers to shame. It throws punches that are faster than the eye can see."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Slakoth",
+        "ID": 36,
+        "Category": "Slacker Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "24.0 kg",
+        "Height": "0.8 m",
+        "Entry": "Slakoth moves only when necessary and even then at a slow pace. It sleeps for 20 hours a day."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Vigoroth",
+        "ID": 37,
+        "Category": "Wild Monkey Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "46.5 kg",
+        "Height": "1.4 m",
+        "Entry": "Its heart beats at a tenfold tempo, so it cannot sit still for even a moment."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Slaking",
+        "ID": 38,
+        "Category": "Lazy Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "130.5 kg",
+        "Height": "2.0 m",
+        "Entry": "Slaking spends most of its days lying down and lolling about. It only moves when it needs to eat."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Nincada",
+        "ID": 39,
+        "Category": "Trainee Pokémon",
+        "Typing": [
+            "Bug",
+            "Ground"
+        ],
+        "AverageWeight": "5.5 kg",
+        "Height": "0.5 m",
+        "Entry": "Nincada lives underground for many years in darkness. It uses its sharp claws to carve through roots."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Ninjask",
+        "ID": 40,
+        "Category": "Ninja Pokémon",
+        "Typing": [
+            "Bug",
+            "Flying"
+        ],
+        "AverageWeight": "12.0 kg",
+        "Height": "0.8 m",
+        "Entry": "Because it moves so quickly, it sometimes becomes unseeable. It cries loudly to make itself known."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Shedinja",
+        "ID": 41,
+        "Category": "Shed Pokémon",
+        "Typing": [
+            "Bug",
+            "Ghost"
+        ],
+        "AverageWeight": "1.2 kg",
+        "Height": "0.8 m",
+        "Entry": "A peculiar Pokémon that floats in air even though its wings remain completely still."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Whismur",
+        "ID": 42,
+        "Category": "Whisper Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "16.3 kg",
+        "Height": "0.6 m",
+        "Entry": "It cries loudly enough to be heard over 1,500 feet away. It does so to intimidate foes."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Loudred",
+        "ID": 43,
+        "Category": "Big Voice Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "40.5 kg",
+        "Height": "1.0 m",
+        "Entry": "Loudred's bellowing can completely decimate the ground and shatter windows."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Exploud",
+        "ID": 44,
+        "Category": "Loud Noise Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "84.0 kg",
+        "Height": "1.5 m",
+        "Entry": "Its howls can be heard over six miles away. It uses its booming voice to communicate."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Makuhita",
+        "ID": 45,
+        "Category": "Guts Pokémon",
+        "Typing": [
+            "Fighting"
+        ],
+        "AverageWeight": "86.4 kg",
+        "Height": "1.0 m",
+        "Entry": "It toughens its body by slamming into thick trees repeatedly. It grows stronger with every hit."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Hariyama",
+        "ID": 46,
+        "Category": "Arm Thrust Pokémon",
+        "Typing": [
+            "Fighting"
+        ],
+        "AverageWeight": "253.8 kg",
+        "Height": "2.3 m",
+        "Entry": "Hariyama is known for its strength. It can send a truck flying with a single palm thrust."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Azurill",
+        "ID": 47,
+        "Category": "Polka Dot Pokémon",
+        "Typing": [
+            "Normal",
+            "Fairy"
+        ],
+        "AverageWeight": "2.0 kg",
+        "Height": "0.2 m",
+        "Entry": "Its tail bounces like a rubber ball. It plays by bouncing its tail around."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Nosepass",
+        "ID": 48,
+        "Category": "Compass Pokémon",
+        "Typing": [
+            "Rock"
+        ],
+        "AverageWeight": "97.0 kg",
+        "Height": "1.0 m",
+        "Entry": "Nosepass always faces north. Its magnetism is stronger in cold weather."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Skitty",
+        "ID": 49,
+        "Category": "Kitten Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "11.0 kg",
+        "Height": "0.6 m",
+        "Entry": "It shows its cute side by chasing its own tail until it gets dizzy."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Delcatty",
+        "ID": 50,
+        "Category": "Prim Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "32.6 kg",
+        "Height": "1.1 m",
+        "Entry": "Delcatty prefers to live an unfettered existence. It does what it pleases at its own pace."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Sableye",
+        "ID": 51,
+        "Category": "Darkness Pokémon",
+        "Typing": [
+            "Dark",
+            "Ghost"
+        ],
+        "AverageWeight": "11.0 kg",
+        "Height": "0.5 m",
+        "Entry": "Sableye digs the ground with its sharp claws to find rocks that it eats. It feeds on gem stones."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Mawile",
+        "ID": 52,
+        "Category": "Deceiver Pokémon",
+        "Typing": [
+            "Steel",
+            "Fairy"
+        ],
+        "AverageWeight": "11.5 kg",
+        "Height": "0.6 m",
+        "Entry": "Mawile’s huge jaws are actually steel horns that it uses to crush foes."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Aron",
+        "ID": 53,
+        "Category": "Iron Armor Pokémon",
+        "Typing": [
+            "Steel",
+            "Rock"
+        ],
+        "AverageWeight": "60.0 kg",
+        "Height": "0.4 m",
+        "Entry": "It eats iron to build its steel body. It is said to feed on railroad tracks and ships."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Lairon",
+        "ID": 54,
+        "Category": "Iron Armor Pokémon",
+        "Typing": [
+            "Steel",
+            "Rock"
+        ],
+        "AverageWeight": "120.0 kg",
+        "Height": "0.9 m",
+        "Entry": "It loves eating iron ore and special rocks. It uses its sturdy body to bash its enemies."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Aggron",
+        "ID": 55,
+        "Category": "Iron Armor Pokémon",
+        "Typing": [
+            "Steel",
+            "Rock"
+        ],
+        "AverageWeight": "360.0 kg",
+        "Height": "2.1 m",
+        "Entry": "Aggron claims an entire mountain as its territory. It mercilessly beats up intruders."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Meditite",
+        "ID": 56,
+        "Category": "Meditate Pokémon",
+        "Typing": [
+            "Fighting",
+            "Psychic"
+        ],
+        "AverageWeight": "11.2 kg",
+        "Height": "0.6 m",
+        "Entry": "It continually meditates for hours every day. It eats just one berry a day as training."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Medicham",
+        "ID": 57,
+        "Category": "Meditate Pokémon",
+        "Typing": [
+            "Fighting",
+            "Psychic"
+        ],
+        "AverageWeight": "31.5 kg",
+        "Height": "1.3 m",
+        "Entry": "Through yoga training, it gained the psychic power to predict its foe’s next move."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Electrike",
+        "ID": 58,
+        "Category": "Lightning Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "15.2 kg",
+        "Height": "0.6 m",
+        "Entry": "Electrike stores electricity in its fur. It gives off sparks if a storm approaches."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Manectric",
+        "ID": 59,
+        "Category": "Discharge Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "40.2 kg",
+        "Height": "1.5 m",
+        "Entry": "Manectric discharges strong electricity from its mane. It creates thunderstorms when it charges."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Plusle",
+        "ID": 60,
+        "Category": "Cheering Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "4.2 kg",
+        "Height": "0.4 m",
+        "Entry": "It cheers on its partners by shorting out its electricity with sparks. It creates a positive atmosphere."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Minun",
+        "ID": 61,
+        "Category": "Cheering Pokémon",
+        "Typing": [
+            "Electric"
+        ],
+        "AverageWeight": "4.2 kg",
+        "Height": "0.4 m",
+        "Entry": "Minun cheers on friends by using its sparks to create a shower of bright flashes."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Volbeat",
+        "ID": 62,
+        "Category": "Firefly Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "17.7 kg",
+        "Height": "0.7 m",
+        "Entry": "It communicates with others by lighting up its tail. It loves the sweet aroma of Illumise."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Illumise",
+        "ID": 63,
+        "Category": "Firefly Pokémon",
+        "Typing": [
+            "Bug"
+        ],
+        "AverageWeight": "17.7 kg",
+        "Height": "0.6 m",
+        "Entry": "It guides Volbeat to draw patterns in the night sky. It’s said to earn the trust of Volbeat."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Roselia",
+        "ID": 64,
+        "Category": "Thorn Pokémon",
+        "Typing": [
+            "Grass",
+            "Poison"
+        ],
+        "AverageWeight": "2.0 kg",
+        "Height": "0.3 m",
+        "Entry": "Roselia shoots sharp thorns as projectiles at anyone that tries to steal its flowers."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Gulpin",
+        "ID": 65,
+        "Category": "Stomach Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "10.3 kg",
+        "Height": "0.4 m",
+        "Entry": "It has a small heart and brain. Its stomach is said to be a bottomless pit."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Swalot",
+        "ID": 66,
+        "Category": "Poison Bag Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "80.0 kg",
+        "Height": "1.7 m",
+        "Entry": "It can swallow something as large as itself in one gulp. Its stomach acid can dissolve anything."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Carvanha",
+        "ID": 67,
+        "Category": "Savage Pokémon",
+        "Typing": [
+            "Water",
+            "Dark"
+        ],
+        "AverageWeight": "20.8 kg",
+        "Height": "0.8 m",
+        "Entry": "They swarm any intruder and tear at it with their fangs. Their sharp teeth can tear through iron."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Sharpedo",
+        "ID": 68,
+        "Category": "Brutal Pokémon",
+        "Typing": [
+            "Water",
+            "Dark"
+        ],
+        "AverageWeight": "88.8 kg",
+        "Height": "1.8 m",
+        "Entry": "Sharpedo can swim at speeds of 75 mph by jetting seawater from its backside."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Wailmer",
+        "ID": 69,
+        "Category": "Ball Whale Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "130.0 kg",
+        "Height": "2.0 m",
+        "Entry": "Wailmer loves to startle people by forcefully expelling water from its nostrils."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Wailord",
+        "ID": 70,
+        "Category": "Float Whale Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "398.0 kg",
+        "Height": "14.5 m",
+        "Entry": "Wailord is the largest Pokémon in the world. It can dive to depths of almost 10,000 feet."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Numel",
+        "ID": 71,
+        "Category": "Numb Pokémon",
+        "Typing": [
+            "Fire",
+            "Ground"
+        ],
+        "AverageWeight": "24.0 kg",
+        "Height": "0.7 m",
+        "Entry": "Numel stores magma in its hump. It is too dull to notice when it has been hit."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Camerupt",
+        "ID": 72,
+        "Category": "Eruption Pokémon",
+        "Typing": [
+            "Fire",
+            "Ground"
+        ],
+        "AverageWeight": "220.0 kg",
+        "Height": "1.9 m",
+        "Entry": "Camerupt has volcanoes on its back. It erupts magma every 10 years."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Slugma",
+        "ID": 73,
+        "Category": "Lava Pokémon",
+        "Typing": [
+            "Fire"
+        ],
+        "AverageWeight": "35.0 kg",
+        "Height": "0.7 m",
+        "Entry": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Magcargo",
+        "ID": 74,
+        "Category": "Lava Pokémon",
+        "Typing": [
+            "Fire",
+            "Rock"
+        ],
+        "AverageWeight": "55.0 kg",
+        "Height": "0.8 m",
+        "Entry": "Its body temperature is over 18,000 degrees Fahrenheit. Water is vaporized on contact."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Torkoal",
+        "ID": 75,
+        "Category": "Coal Pokémon",
+        "Typing": [
+            "Fire"
+        ],
+        "AverageWeight": "80.4 kg",
+        "Height": "0.5 m",
+        "Entry": "Torkoal burns coal to produce energy. Large amounts of smoke come out of its shell."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Grimer",
+        "ID": 76,
+        "Category": "Sludge Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "30.0 kg",
+        "Height": "0.9 m",
+        "Entry": "Grimer's sludgy body is made up of living toxic waste. It smells foul and sticks to everything."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Muk",
+        "ID": 77,
+        "Category": "Sludge Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "30.0 kg",
+        "Height": "1.2 m",
+        "Entry": "Muk's body is so toxic, even its footprints contain poison. It’s best to avoid it completely."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Spoink",
+        "ID": 78,
+        "Category": "Bounce Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "30.6 kg",
+        "Height": "0.7 m",
+        "Entry": "Spoink bounces around on its tail. The bouncing keeps its heart beating."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Grumpig",
+        "ID": 79,
+        "Category": "Manipulate Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "71.5 kg",
+        "Height": "0.9 m",
+        "Entry": "Grumpig uses the black pearls on its body to amplify its psychic power."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Spinda",
+        "ID": 80,
+        "Category": "Spot Panda Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "5.0 kg",
+        "Height": "1.1 m",
+        "Entry": "No two Spinda have the same pattern of spots. Its movements are erratic."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Trapinch",
+        "ID": 81,
+        "Category": "Ant Pit Pokémon",
+        "Typing": [
+            "Ground"
+        ],
+        "AverageWeight": "15.0 kg",
+        "Height": "0.7 m",
+        "Entry": "Trapinch's nest is a sloped, bowl-like pit dug in sand. This Pokémon patiently waits for prey to tumble down the pit."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Vibrava",
+        "ID": 82,
+        "Category": "Vibration Pokémon",
+        "Typing": [
+            "Ground",
+            "Dragon"
+        ],
+        "AverageWeight": "15.3 kg",
+        "Height": "1.1 m",
+        "Entry": "To make prey faint, Vibrava generates ultrasonic waves by vigorously flapping its wings."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Flygon",
+        "ID": 83,
+        "Category": "Mystic Pokémon",
+        "Typing": [
+            "Ground",
+            "Dragon"
+        ],
+        "AverageWeight": "82.0 kg",
+        "Height": "2.0 m",
+        "Entry": "Flygon is nicknamed 'the elemental spirit of the desert.' Because its flapping wings whip up a cloud of sand."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Cacnea",
+        "ID": 84,
+        "Category": "Cactus Pokémon",
+        "Typing": [
+            "Grass"
+        ],
+        "AverageWeight": "51.3 kg",
+        "Height": "0.4 m",
+        "Entry": "Cacnea lives in arid locations. Its body is covered with thorns that grow to protect it."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Cacturne",
+        "ID": 85,
+        "Category": "Scarecrow Pokémon",
+        "Typing": [
+            "Grass",
+            "Dark"
+        ],
+        "AverageWeight": "77.4 kg",
+        "Height": "1.3 m",
+        "Entry": "If a traveler is going through a desert in the thick of night, Cacturne will follow in a ragtag group."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Swablu",
+        "ID": 86,
+        "Category": "Cotton Bird Pokémon",
+        "Typing": [
+            "Normal",
+            "Flying"
+        ],
+        "AverageWeight": "1.2 kg",
+        "Height": "0.4 m",
+        "Entry": "Swablu has light and fluffy wings that are like cottony clouds. It cleans things with its wings."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Altaria",
+        "ID": 87,
+        "Category": "Humming Pokémon",
+        "Typing": [
+            "Dragon",
+            "Flying"
+        ],
+        "AverageWeight": "20.6 kg",
+        "Height": "1.1 m",
+        "Entry": "Altaria sings in a gorgeous soprano. Its wings are like cotton clouds, giving it a majestic appearance."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Zangoose",
+        "ID": 88,
+        "Category": "Cat Ferret Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "40.3 kg",
+        "Height": "1.3 m",
+        "Entry": "Zangoose usually walks on all fours, but it stands on its hind legs when angry."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Seviper",
+        "ID": 89,
+        "Category": "Fang Snake Pokémon",
+        "Typing": [
+            "Poison"
+        ],
+        "AverageWeight": "52.5 kg",
+        "Height": "2.7 m",
+        "Entry": "Seviper shares a long-running feud with Zangoose. Its sword-like tail serves as a formidable weapon."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Lunatone",
+        "ID": 90,
+        "Category": "Meteorite Pokémon",
+        "Typing": [
+            "Rock",
+            "Psychic"
+        ],
+        "AverageWeight": "168.0 kg",
+        "Height": "1.0 m",
+        "Entry": "Lunatone becomes active on the night of a full moon. It hovers in the air and moves silently."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Solrock",
+        "ID": 91,
+        "Category": "Meteorite Pokémon",
+        "Typing": [
+            "Rock",
+            "Psychic"
+        ],
+        "AverageWeight": "154.0 kg",
+        "Height": "1.2 m",
+        "Entry": "Solrock is a new species of Pokémon that is said to have fallen from space. It floats in air and moves silently."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Barboach",
+        "ID": 92,
+        "Category": "Whiskers Pokémon",
+        "Typing": [
+            "Water",
+            "Ground"
+        ],
+        "AverageWeight": "1.9 kg",
+        "Height": "0.4 m",
+        "Entry": "Barboach’s whiskers serve as a superb radar system. It uses them to locate food and sense danger."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Whiscash",
+        "ID": 93,
+        "Category": "Whiskers Pokémon",
+        "Typing": [
+            "Water",
+            "Ground"
+        ],
+        "AverageWeight": "23.6 kg",
+        "Height": "0.9 m",
+        "Entry": "Whiscash is extremely territorial. Just one of these Pokémon will claim a large pond as its exclusive territory."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Corphish",
+        "ID": 94,
+        "Category": "Ruffian Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "11.5 kg",
+        "Height": "0.6 m",
+        "Entry": "Corphish is very hardy. It can survive in polluted water and adapt to any environment."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Crawdaunt",
+        "ID": 95,
+        "Category": "Rogue Pokémon",
+        "Typing": [
+            "Water",
+            "Dark"
+        ],
+        "AverageWeight": "32.8 kg",
+        "Height": "1.1 m",
+        "Entry": "Crawdaunt is extremely strong, but it has a rough and often violent temperament."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Baltoy",
+        "ID": 96,
+        "Category": "Clay Doll Pokémon",
+        "Typing": [
+            "Ground",
+            "Psychic"
+        ],
+        "AverageWeight": "21.5 kg",
+        "Height": "0.5 m",
+        "Entry": "Baltoy moves while spinning like a top. It has been said that ancient people created this Pokémon."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Claydol",
+        "ID": 97,
+        "Category": "Clay Doll Pokémon",
+        "Typing": [
+            "Ground",
+            "Psychic"
+        ],
+        "AverageWeight": "108.0 kg",
+        "Height": "1.5 m",
+        "Entry": "Claydol is an ancient Pokémon. It was born from clay dolls made by primitive humans."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Lileep",
+        "ID": 98,
+        "Category": "Sea Lily Pokémon",
+        "Typing": [
+            "Rock",
+            "Grass"
+        ],
+        "AverageWeight": "23.8 kg",
+        "Height": "1.0 m",
+        "Entry": "Lileep became extinct approximately 100 million years ago. It uses its tentacles to capture prey."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Cradily",
+        "ID": 99,
+        "Category": "Barnacle Pokémon",
+        "Typing": [
+            "Rock",
+            "Grass"
+        ],
+        "AverageWeight": "60.4 kg",
+        "Height": "1.5 m",
+        "Entry": "Cradily lives in warm seas. It uses its tentacles to drag unsuspecting prey into its body."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Anorith",
+        "ID": 100,
+        "Category": "Old Shrimp Pokémon",
+        "Typing": [
+            "Rock",
+            "Bug"
+        ],
+        "AverageWeight": "12.5 kg",
+        "Height": "0.7 m",
+        "Entry": "Anorith is considered a primitive Pokémon. It has been resurrected from a fossil."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Armaldo",
+        "ID": 101,
+        "Category": "Plate Pokémon",
+        "Typing": [
+            "Rock",
+            "Bug"
+        ],
+        "AverageWeight": "68.2 kg",
+        "Height": "1.5 m",
+        "Entry": "Armaldo's tough armor protects it from all attacks. It lives near water and catches prey using its powerful claws."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Feebas",
+        "ID": 102,
+        "Category": "Fish Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "7.4 kg",
+        "Height": "0.6 m",
+        "Entry": "Feebas is the shabbiest Pokémon. It is slow and ugly, but it is a hardy creature that can survive in any body of water."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Milotic",
+        "ID": 103,
+        "Category": "Tender Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "162.0 kg",
+        "Height": "6.2 m",
+        "Entry": "Milotic is said to be the most beautiful Pokémon. It calms emotions and brings serenity with its appearance."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Castform",
+        "ID": 104,
+        "Category": "Weather Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "0.8 kg",
+        "Height": "0.3 m",
+        "Entry": "Castform changes its form depending on the weather. It uses the power of nature to adapt its body."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Kecleon",
+        "ID": 105,
+        "Category": "Color Swap Pokémon",
+        "Typing": [
+            "Normal"
+        ],
+        "AverageWeight": "22.0 kg",
+        "Height": "1.0 m",
+        "Entry": "Kecleon can change the color of its body to match its surroundings. It uses this ability to camouflage itself."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Shuppet",
+        "ID": 106,
+        "Category": "Puppet Pokémon",
+        "Typing": [
+            "Ghost"
+        ],
+        "AverageWeight": "2.3 kg",
+        "Height": "0.6 m",
+        "Entry": "Shuppet feeds on dark emotions, such as grudges and envy. It appears in swarms on dark nights."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Banette",
+        "ID": 107,
+        "Category": "Marionette Pokémon",
+        "Typing": [
+            "Ghost"
+        ],
+        "AverageWeight": "12.5 kg",
+        "Height": "1.1 m",
+        "Entry": "Banette generates energy from hatred. It is said to curse anyone who carelessly throws it away."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Duskull",
+        "ID": 108,
+        "Category": "Requiem Pokémon",
+        "Typing": [
+            "Ghost"
+        ],
+        "AverageWeight": "15.0 kg",
+        "Height": "0.8 m",
+        "Entry": "Duskull wanders lost in the darkness. It is said to take away bad children who disobey their parents."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Dusclops",
+        "ID": 109,
+        "Category": "Beckon Pokémon",
+        "Typing": [
+            "Ghost"
+        ],
+        "AverageWeight": "30.6 kg",
+        "Height": "1.6 m",
+        "Entry": "Dusclops's body is completely hollow. When it opens its mouth, it swallows everything in darkness."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Tropius",
+        "ID": 110,
+        "Category": "Fruit Pokémon",
+        "Typing": [
+            "Grass",
+            "Flying"
+        ],
+        "AverageWeight": "100.0 kg",
+        "Height": "2.0 m",
+        "Entry": "The bunch of fruit around Tropius's neck grows twice a year. Its sweet aroma lures other Pokémon."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Chimecho",
+        "ID": 111,
+        "Category": "Wind Chime Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "1.0 kg",
+        "Height": "0.6 m",
+        "Entry": "Chimecho makes beautiful sounds when it floats on the wind. It uses its voice to communicate emotion."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Absol",
+        "ID": 112,
+        "Category": "Disaster Pokémon",
+        "Typing": [
+            "Dark"
+        ],
+        "AverageWeight": "47.0 kg",
+        "Height": "1.2 m",
+        "Entry": "Absol appears before natural disasters occur. Its appearance led people to believe it brings misfortune."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Wynaut",
+        "ID": 113,
+        "Category": "Bright Pokémon",
+        "Typing": [
+            "Psychic"
+        ],
+        "AverageWeight": "14.0 kg",
+        "Height": "0.6 m",
+        "Entry": "Wynaut grows stronger by pushing up against others. It loves to play and bounce around."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Snorunt",
+        "ID": 114,
+        "Category": "Snow Hat Pokémon",
+        "Typing": [
+            "Ice"
+        ],
+        "AverageWeight": "16.8 kg",
+        "Height": "0.7 m",
+        "Entry": "Snorunt lives in regions with heavy snowfall. It survives by eating snow and ice."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Glalie",
+        "ID": 115,
+        "Category": "Face Pokémon",
+        "Typing": [
+            "Ice"
+        ],
+        "AverageWeight": "256.5 kg",
+        "Height": "1.5 m",
+        "Entry": "Glalie can instantly freeze moisture in the atmosphere, forming an icy body that is harder than steel."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Spheal",
+        "ID": 116,
+        "Category": "Clap Pokémon",
+        "Typing": [
+            "Ice",
+            "Water"
+        ],
+        "AverageWeight": "39.5 kg",
+        "Height": "0.8 m",
+        "Entry": "Spheal rolls across ice to move. It bounces playfully and claps its flippers in delight."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Sealeo",
+        "ID": 117,
+        "Category": "Ball Roll Pokémon",
+        "Typing": [
+            "Ice",
+            "Water"
+        ],
+        "AverageWeight": "87.6 kg",
+        "Height": "1.1 m",
+        "Entry": "Sealeo likes to balance things on the tip of its nose. It plays with its food before eating it."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Walrein",
+        "ID": 118,
+        "Category": "Ice Break Pokémon",
+        "Typing": [
+            "Ice",
+            "Water"
+        ],
+        "AverageWeight": "150.6 kg",
+        "Height": "1.4 m",
+        "Entry": "Walrein’s thick blubber protects it from cold temperatures. It can shatter icebergs with its tusks."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Clamperl",
+        "ID": 119,
+        "Category": "Bivalve Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "52.5 kg",
+        "Height": "0.4 m",
+        "Entry": "Clamperl’s pearls are exceedingly rare and highly valued. The pearls grow with the Pokémon."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Huntail",
+        "ID": 120,
+        "Category": "Deep Sea Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "27.0 kg",
+        "Height": "1.7 m",
+        "Entry": "Huntail lives deep in the sea. It is said to hunt prey by luring it in with its tail, which looks like a small fish."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Gorebyss",
+        "ID": 121,
+        "Category": "South Sea Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "22.6 kg",
+        "Height": "1.8 m",
+        "Entry": "Gorebyss lives deep in the sea. Its pink body becomes more vivid the deeper it lives."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Relicanth",
+        "ID": 122,
+        "Category": "Longevity Pokémon",
+        "Typing": [
+            "Water",
+            "Rock"
+        ],
+        "AverageWeight": "23.4 kg",
+        "Height": "1.0 m",
+        "Entry": "Relicanth is a Pokémon species that has remained unchanged for 100 million years."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Luvdisc",
+        "ID": 123,
+        "Category": "Rendezvous Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "8.7 kg",
+        "Height": "0.6 m",
+        "Entry": "Luvdisc lives in warm seas. It is often seen swimming in couples, which has made it a symbol of love."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Bagon",
+        "ID": 124,
+        "Category": "Rock Head Pokémon",
+        "Typing": [
+            "Dragon"
+        ],
+        "AverageWeight": "42.1 kg",
+        "Height": "0.6 m",
+        "Entry": "Bagon harbors a dream of one day soaring in the sky. In doomed efforts to fly, it hurls itself off cliffs."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Shelgon",
+        "ID": 125,
+        "Category": "Endurance Pokémon",
+        "Typing": [
+            "Dragon"
+        ],
+        "AverageWeight": "110.5 kg",
+        "Height": "1.1 m",
+        "Entry": "Shelgon's body is wrapped in a sturdy shell. The shell is so heavy that it slows the Pokémon's movements."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Salamence",
+        "ID": 126,
+        "Category": "Dragon Pokémon",
+        "Typing": [
+            "Dragon",
+            "Flying"
+        ],
+        "AverageWeight": "102.6 kg",
+        "Height": "1.5 m",
+        "Entry": "Salamence came about as a result of a strong, long-held dream of growing wings. It is said to be uncontrollable in battle."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Beldum",
+        "ID": 127,
+        "Category": "Iron Ball Pokémon",
+        "Typing": [
+            "Steel",
+            "Psychic"
+        ],
+        "AverageWeight": "95.2 kg",
+        "Height": "0.6 m",
+        "Entry": "Beldum’s body emits a magnetic force. By linking together, they can form a strong magnetic chain."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Metang",
+        "ID": 128,
+        "Category": "Iron Claw Pokémon",
+        "Typing": [
+            "Steel",
+            "Psychic"
+        ],
+        "AverageWeight": "202.5 kg",
+        "Height": "1.2 m",
+        "Entry": "Metang is formed when two Beldum join together. It flies at high speeds, hunting for prey with its claws."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Metagross",
+        "ID": 129,
+        "Category": "Iron Leg Pokémon",
+        "Typing": [
+            "Steel",
+            "Psychic"
+        ],
+        "AverageWeight": "550.0 kg",
+        "Height": "1.6 m",
+        "Entry": "Metagross is the result of two Metang fusing together. Its four brains give it unparalleled intelligence."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Regirock",
+        "ID": 130,
+        "Category": "Rock Peak Pokémon",
+        "Typing": [
+            "Rock"
+        ],
+        "AverageWeight": "230.0 kg",
+        "Height": "1.7 m",
+        "Entry": "Regirock's body is composed entirely of rocks. If any part of its body is chipped, it attaches rocks to repair itself."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Regice",
+        "ID": 131,
+        "Category": "Iceberg Pokémon",
+        "Typing": [
+            "Ice"
+        ],
+        "AverageWeight": "175.0 kg",
+        "Height": "1.8 m",
+        "Entry": "Regice’s body is made of Antarctic ice. It can survive in temperatures as low as -328 degrees Fahrenheit."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Registeel",
+        "ID": 132,
+        "Category": "Iron Pokémon",
+        "Typing": [
+            "Steel"
+        ],
+        "AverageWeight": "205.0 kg",
+        "Height": "1.9 m",
+        "Entry": "Registeel’s body is made of a strange material that is stronger than any known metal. It stretches and shrinks flexibly."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Latias",
+        "ID": 133,
+        "Category": "Eon Pokémon",
+        "Typing": [
+            "Dragon",
+            "Psychic"
+        ],
+        "AverageWeight": "40.0 kg",
+        "Height": "1.4 m",
+        "Entry": "Latias is highly intelligent and can understand human speech. It can become invisible when it senses danger."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Latios",
+        "ID": 134,
+        "Category": "Eon Pokémon",
+        "Typing": [
+            "Dragon",
+            "Psychic"
+        ],
+        "AverageWeight": "60.0 kg",
+        "Height": "2.0 m",
+        "Entry": "Latios has the ability to make others see an image of what it has seen or is imagining in its head."
+    },
+    {
+        "Region": "Hoenn",
+        "Name": "Kyogre",
+        "ID": 135,
+        "Category": "Sea Basin Pokémon",
+        "Typing": [
+            "Water"
+        ],
+        "AverageWeight": "352.0 kg",
+        "Height": "4.5 m",
+        "Entry": "Kyogre is said to be the personification of the sea itself. It has the power to summon massive rainstorms."
+    }
+]
